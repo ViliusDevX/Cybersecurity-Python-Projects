@@ -65,7 +65,7 @@ If found, a warning is added to the result:
 
 All results are combined into a summary and displayed using:
 
-tkinter.messagebox.showinfo()
+    tkinter.messagebox.showinfo()
 
 The popup includes:
 
