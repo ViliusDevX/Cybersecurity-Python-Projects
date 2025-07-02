@@ -89,13 +89,13 @@ A report.json file is created in the working directory, storing:
 
 📝 Example Output (in popup):
 
-Password strength: Strong (4/5)
-Entropy: 54.21 bits – Strong
-
-Suggestions:
- - Tip: Make it at least 12 characters long.
-
-⚠️ Warning: This password is very common!
+    Password strength: Strong (4/5)
+    Entropy: 54.21 bits – Strong
+    
+    Suggestions:
+     - Tip: Make it at least 12 characters long.
+    
+    ⚠️ Warning: This password is very common!
 
 This version is ideal for non-technical users, showcasing projects, or building GUI-based tools with a security focus.
 The logic remains the same as the CLI version — only the interface changes.
