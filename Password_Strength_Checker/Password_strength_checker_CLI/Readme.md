@@ -2,7 +2,7 @@
 
 🔹 1. User Input
 
-The user is prompted in the terminal to enter a password using input() (or getpass() in earlier versions, depending on environment support).
+The user is prompted in the terminal to enter a password using input().
 
 🔹 2. Password Analysis
 
