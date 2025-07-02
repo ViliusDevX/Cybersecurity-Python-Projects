@@ -1,4 +1,4 @@
-🖥️ Working Mechanism – CLI Version
+🖥️ How does it work? – CLI Version
 
 🔹 1. User Input
 
