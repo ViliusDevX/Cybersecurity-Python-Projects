@@ -42,7 +42,7 @@ If a condition is missing, a helpful suggestion is generated (e.g., "Tip: Add di
 
 The script estimates password entropy using this formula:
 
-entropy = length × log2(character set size)
+    entropy = length × log2(character set size)
 
 Entropy level is interpreted and rated:
 
