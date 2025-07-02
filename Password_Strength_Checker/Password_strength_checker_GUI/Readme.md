@@ -1,4 +1,5 @@
 🖥️ How Does It Work? – GUI Version
+
 🔹 1. Graphical User Interface (Tkinter)
 
 The program uses Python’s tkinter library to create a simple, cross-platform graphical interface. When the script is run:
