@@ -1,4 +1,5 @@
 🖥️ Working Mechanism – CLI Version
+
 🔹 1. User Input
 
 The user is prompted in the terminal to enter a password using input() (or getpass() in earlier versions, depending on environment support).
@@ -29,7 +30,7 @@ Each satisfied condition adds +1 to the password’s score (max: 5).
 
 The password is analyzed to estimate entropy using:
 
-entropy = length × log2(charset size)
+    entropy = length × log2(charset size)
 
 Entropy level is interpreted into practical strength (e.g., “Crackable in seconds” or “Very strong”).
 
