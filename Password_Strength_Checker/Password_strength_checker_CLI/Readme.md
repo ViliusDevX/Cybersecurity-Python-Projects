@@ -43,6 +43,6 @@ If it matches, a warning is shown:
 
 🔹 6. Output & Report
 
-    All results are printed directly to the terminal.
+All results are printed directly to the terminal.
 
     A report.json file is created, logging masked password info, score, and rating.
