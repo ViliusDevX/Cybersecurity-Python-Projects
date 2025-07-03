@@ -42,8 +42,6 @@ Python is a key tool in cybersecurity — from automation and scripting to threa
 
 ## 🧭 Upcoming Projects
 
-Planned future additions:
-
 -🔐 Caesar/XOR Encoder-Decoder
 
 -📁 Security Event Log Analyzer
