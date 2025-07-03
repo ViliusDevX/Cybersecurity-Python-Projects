@@ -30,7 +30,7 @@ Each project is organized into its own folder and includes:
 |--------|-------------|
 | `password-strength-checker/` | CLI + GUI tool to analyze password complexity, entropy, and common password usage |
 | `hash-cracker` | GUI-based tool that performs offline dictionary attacks on hashes using rockyou.txt wordlist |
-| _More coming soon..._ | Plans include hash crackers, encoders, log analyzers and etc. |
+| _More coming soon..._ | Plans include port scanners, HTTP header analyzer, SIEM analyzers and etc. |
 
 ---
 
@@ -45,11 +45,17 @@ Python is a key tool in cybersecurity — from automation and scripting to threa
 Planned future additions:
 
 -🔐 Caesar/XOR Encoder-Decoder
+
 -📁 Security Event Log Analyzer
+
 -🕵️‍♂️ IP Reputation Checker
+
 -🧰 Simple Port Scanner
+
 -🛑 HTTP Header Analyzer
+
 -🔍 Local Network Device Finder
+
 -🔐 JWT Token Parser & Verifier
 
 ---
