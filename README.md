@@ -17,8 +17,8 @@ A collection of intermediate Python projects focused on cybersecurity — built 
 
 Each project is organized into its own folder and includes:
 
-- ✅ A clean, commented Python script  
-- 📘 A README with usage instructions  
+- ✅ Clean Python script  
+- 📘 README with usage instructions  
 - 🧠 Explanations of the cybersecurity concepts behind it  
 - 🖥️ (Optional) GUI or advanced features  
 
@@ -31,12 +31,6 @@ Each project is organized into its own folder and includes:
 | `password-strength-checker/` | CLI + GUI tool to analyze password complexity, entropy, and common password usage |
 | `hash-cracker` | GUI-based tool that performs offline dictionary attacks on hashes using rockyou.txt wordlist |
 | _More coming soon..._ | Plans include port scanners, HTTP header analyzer, SIEM analyzers and etc. |
-
----
-
-## 💡 Why This Matters
-
-Python is a key tool in cybersecurity — from automation and scripting to threat detection and custom tool development. This repo is part of my journey to combine software skills with real-world cybersecurity knowledge.
 
 ---
 
@@ -60,11 +54,17 @@ Python is a key tool in cybersecurity — from automation and scripting to threa
 
 ## 📚 Skills Practiced
 
-- Python fundamentals (logic, functions, modularity)  
-- File handling, string manipulation, entropy calculations  
-- GUI development with Tkinter  
-- Cybersecurity concepts: password strength, entropy, common password lists  
-- CLI and user interaction design  
+-🐍 Python logic, functions, and modular scripting
+
+-📁 File handling, parsing, and string manipulation
+
+-🔐 Hashing, encoding, and cryptography basics
+
+-🌐 Network requests, scanning, and local recon
+
+-🧠 Security concepts: password cracking, JWT, secure headers
+
+-🖥️ CLI and GUI design (PyQt5/tkinter)
 
 ---
 
