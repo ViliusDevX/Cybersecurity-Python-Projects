@@ -29,6 +29,7 @@ Each project is organized into its own folder and includes:
 | Project | Description |
 |--------|-------------|
 | `password-strength-checker/` | CLI + GUI tool to analyze password complexity, entropy, and common password usage |
+| `hash-cracker` | CLI tool to crack given hash based on rockyou.txt wordlist |
 | _More coming soon..._ | Plans include hash crackers, encoders, and log analyzers |
 
 ---
