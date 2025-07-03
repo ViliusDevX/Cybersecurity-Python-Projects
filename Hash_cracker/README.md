@@ -1,6 +1,6 @@
 # 🔓 Hash-Cracker
 
-A simple yet effective Python tool to perform **dictionary-based hash cracking** using popular hashing algorithms (e.g., MD5, SHA-1, SHA-256). Includes a user-friendly GUI built with PyQt5.
+A simple Python tool to perform **dictionary-based hash cracking** using popular hashing algorithms (e.g., MD5, SHA-1, SHA-256). Includes a user-friendly GUI built with PyQt5.
 
 ## 🧠 What It Does
 
