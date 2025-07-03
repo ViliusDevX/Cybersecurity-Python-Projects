@@ -44,10 +44,13 @@ Python is a key tool in cybersecurity — from automation and scripting to threa
 
 Planned future additions:
 
-- 🔓 Hash Cracker (with wordlists)  
-- 🔐 Caesar/XOR Encoder-Decoder  
-- 📊 Log File Analyzer  
-- 🕵️‍♂️ IP Reputation Checker  
+-🔐 Caesar/XOR Encoder-Decoder
+-📁 Security Event Log Analyzer
+-🕵️‍♂️ IP Reputation Checker
+-🧰 Simple Port Scanner
+-🛑 HTTP Header Analyzer
+-🔍 Local Network Device Finder
+-🔐 JWT Token Parser & Verifier
 
 ---
 
