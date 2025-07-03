@@ -7,7 +7,7 @@ A simple yet effective Python tool to perform **dictionary-based hash cracking**
 This tool performs **offline dictionary attacks** to identify plaintext values from hashed strings by:
 
 1. Taking a target hash as input  
-2. Trying each word in a wordlist (`rockyou.txt` by default)  
+2. Trying each word in a wordlist (`rockyou.txt`)  
 3. Hashing it using the selected algorithm  
 4. Comparing it to the target  
 5. Returning the original password if found  
@@ -19,7 +19,6 @@ It supports:
 - SHA-512
 - SHA3-256, SHA3-512
 - BLAKE2s, BLAKE2b  
-- Any other algorithm supported by Python’s `hashlib`
 
 ## 🖥️ GUI Mode
 
@@ -45,54 +44,17 @@ You’ll see:
 
 ## ⚠️ About `rockyou.txt`
 
-This tool uses the **rockyou.txt** wordlist — a famous password list used in security research and CTFs.
+This tool uses the **rockyou.txt** wordlist, famous password list used in security research and CTFs.
 
-However, it is **not included** in this repository because GitHub restricts individual file sizes to **100 MB**, and `rockyou.txt` is ~113 MB.
+However, it is **not included** in this repository because GitHub restricts bigger files.
 
 ## 🔽 How to Get `rockyou.txt`
-
-### ✅ Option 1: Manual Download
 
 Download the wordlist from this reliable source:
 
 🔗 https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
 
 Place the file in the same directory as the script or point to it during runtime.
-
-### 💻 Option 2: Use the Download Script
-
-Run the included Python script to download it automatically:
-
-```bash
-python download_wordlist.py
-```
-
-`download_wordlist.py`:
-```python
-import urllib.request
-
-url = "https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt"
-print("⬇️ Downloading rockyou.txt...")
-urllib.request.urlretrieve(url, "rockyou.txt")
-print("✅ Download complete.")
-```
-
-## ▶️ How to Run
-
-### CLI Mode:
-```bash
-python hash_cracker.py
-```
-
-### GUI Mode:
-```bash
-python hash_cracker_gui.py
-```
-
-Install dependencies:
-```bash
-pip install pyqt5
-```
 
 ## 🧪 Example
 
@@ -114,20 +76,9 @@ Install requirements with:
 pip install pyqt5
 ```
 
-## 📁 File Structure
-
-```
-hash-cracker/
-├── hash_cracker.py         # CLI version
-├── hash_cracker_gui.py     # GUI version
-├── download_wordlist.py    # Helper script to download rockyou.txt
-├── README.md               # This file
-├── .gitignore              # Ignores large files like rockyou.txt
-```
-
 ## 🚀 Author
 
-This tool is part of the **Cybersecurity-Python-Projects** series — a hands-on portfolio of practical tools created to refresh Python skills and explore real-world security concepts.
+This tool is part of the **Cybersecurity-Python-Projects** series, a hands-on portfolio of practical tools created to refresh Python skills and explore real-world security concepts.
 
 Built by an aspiring junior penetration tester & cybersecurity student.  
 Suggestions, feedback, or contributions are always welcome — open an issue or reach out 🤙
