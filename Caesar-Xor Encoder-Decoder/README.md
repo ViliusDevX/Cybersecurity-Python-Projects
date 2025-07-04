@@ -16,13 +16,12 @@ A simple and intuitive PyQt5-based GUI application for encoding and decoding tex
 
 ## 🖥️ How It Works
 
-1. Launch the app (`python cipher_gui.py`)
-2. Choose between **Encode** and **Decode** using the tabs
-3. Select the cipher method: **Caesar** or **XOR**
-4. Input the text and provide a:
+1. Choose between **Encode** and **Decode** using the tabs
+2. Select the cipher method: **Caesar** or **XOR**
+3. Input the text and provide a:
    - 🔢 Caesar: integer shift (e.g. 3)
    - 🔐 XOR: string key (e.g. `secret`)
-5. Click **Run** to see the result in real-time
+4. Click **Run** to see the result in real-time
 
 ---
 
