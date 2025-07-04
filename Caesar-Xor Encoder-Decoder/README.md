@@ -8,7 +8,7 @@ A simple and intuitive PyQt5-based GUI application for encoding and decoding tex
 
 - 🧩 **Two cipher options**: Caesar Cipher and XOR Cipher
 - 📑 **Two modes**: Encode and Decode (tab-based interface)
-- ✍️ Input text field and key/shift entry
+- ✍️ Input text field and **key/shift** entry
 - 🖥️ Clean and responsive GUI built with **PyQt5**
 
 ---
@@ -33,7 +33,7 @@ A simple and intuitive PyQt5-based GUI application for encoding and decoding tex
 
 ## 🧠 Skills Demonstrated
 
-- GUI programming with PyQt5
+- GUI programming with **PyQt5**
 - Modular function design
 - Handling text input/output
 - Basic cryptography logic (Caesar, XOR)
