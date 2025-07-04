@@ -33,39 +33,12 @@ A simple and intuitive PyQt5-based GUI application for encoding and decoding tex
 
 ---
 
-## 🚀 Getting Started
-
-### 📦 Requirements
-
-- Python 3.6+
-- `PyQt5`  
-  Install with:
-  ```bash
-  pip install pyqt5
-  ```
-
-### ▶️ Run the App
-
-```bash
-python cipher_gui.py
-```
-
----
-
 ## 🧠 Skills Demonstrated
 
 - GUI programming with PyQt5
 - Modular function design
 - Handling text input/output
 - Basic cryptography logic (Caesar, XOR)
-- Event-driven UI updates
-
----
-
-## 📁 Part of My Cybersecurity Python Projects
-
-This project is part of my broader repository:  
-🔗 [`Cybersecurity-Python-Projects`](https://github.com/your-username/Cybersecurity-Python-Projects)
 
 ---
 
