@@ -10,7 +10,6 @@ A simple and intuitive PyQt5-based GUI application for encoding and decoding tex
 - 📑 **Two modes**: Encode and Decode (tab-based interface)
 - ✍️ Input text field and key/shift entry
 - 🖥️ Clean and responsive GUI built with **PyQt5**
-- 📤 Instant display of encoded/decoded output
 
 ---
 
