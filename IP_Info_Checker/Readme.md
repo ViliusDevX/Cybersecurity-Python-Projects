@@ -30,10 +30,6 @@ pip install PyQt5 requests
 
 python simple_ip_info_checker.py
 
-📸 Preview
-
-    ![Screenshot (271)](https://github.com/user-attachments/assets/3bce2037-cdd6-41e1-87b3-fe1e436897fb)
-
 
 📘 Notes
 
