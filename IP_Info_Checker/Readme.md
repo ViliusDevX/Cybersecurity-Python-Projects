@@ -26,12 +26,12 @@ A lightweight Python + PyQt5 desktop tool that retrieves useful metadata about a
 
 pip install PyQt5 requests
 
-📦 Usage
+## 📦 Usage
 
-python simple_ip_info_checker.py
+- python simple_ip_info_checker.py
 
 
-📘 Notes
+## 📘 Notes
 
     This tool is not an IP reputation checker. It simply shows metadata about the IP address.
 
