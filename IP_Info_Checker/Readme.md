@@ -1,6 +1,6 @@
-# 🌐 simple_ip_info_checker
+# 🌐 IP_Info_Checker
 
-A lightweight Python + PyQt5 desktop tool that retrieves useful metadata about any IP address using public IP lookup APIs. Designed for students, analysts, and developers who need quick IP context without reputation scoring or authentication tokens.
+Lightweight Python desktop tool that retrieves useful metadata about any IP address using public IP lookup APIs. Designed for students, analysts, and developers who need quick IP context without reputation scoring or authentication tokens.
 
 ---
 
@@ -28,7 +28,7 @@ pip install PyQt5 requests
 
 ## 📦 Usage
 
-- python simple_ip_info_checker.py
+- python IP_checker.py
 
 
 ## 📘 Notes
