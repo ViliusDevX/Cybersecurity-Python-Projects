@@ -39,8 +39,6 @@ Each project is organized into its own folder and includes:
 
 -📁 Security Event Log Analyzer
 
--🕵️‍♂️ IP Reputation Checker
-
 -🧰 Simple Port Scanner
 
 -🛑 HTTP Header Analyzer
