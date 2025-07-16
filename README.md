@@ -37,8 +37,6 @@ Each project is organized into its own folder and includes:
 
 ## 🧭 Upcoming Projects
 
--📁 Security Event Log Analyzer
-
 -🧰 Simple Port Scanner
 
 -🛑 HTTP Header Analyzer
