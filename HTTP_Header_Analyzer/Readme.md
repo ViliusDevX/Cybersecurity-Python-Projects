@@ -16,7 +16,7 @@ A simple yet effective Python tool with a PyQt5 GUI to analyze HTTP response hea
   - `X-XSS-Protection`
   - `Referrer-Policy`
   - `Permissions-Policy`
-- 🖥️ Clean PyQt5-based GUI — no terminal needed
+- 🖥️ Clean PyQt5-based GUI
 
 ---
 
