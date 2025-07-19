@@ -41,12 +41,11 @@ Each project is organized into its own folder and includes:
 
 -🧰 Simple Port Scanner
 
--🛑 HTTP Header Analyzer
-
 -🔍 Local Network Device Finder
 
 -🔐 JWT Token Parser & Verifier
 
+-🖥️ SIEM analyzer
 ---
 
 ## 📚 Skills Practiced
