@@ -46,6 +46,7 @@ Each project is organized into its own folder and includes:
 -🔐 JWT Token Parser & Verifier
 
 -🖥️ SIEM analyzer
+
 ---
 
 ## 📚 Skills Practiced
