@@ -35,7 +35,3 @@ A simple yet effective Python tool with a PyQt5 GUI to analyze HTTP response hea
 - `PyQt5`
 - `requests`
 
-Install dependencies with:
-
-```bash
-pip install PyQt5 requests
