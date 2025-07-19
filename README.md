@@ -28,10 +28,12 @@ Each project is organized into its own folder and includes:
 
 | Project | Description |
 |--------|-------------|
-| `password-strength-checker/` | CLI + GUI tool to analyze password complexity, entropy, and common password usage |
+| `password-strength-checker` | CLI + GUI tool to analyze password complexity, entropy, and common password usage |
 | `hash-cracker` | GUI-based tool that performs offline dictionary attacks on hashes using rockyou.txt, or your own wordlist |
-| `caesar-xor-encoder-decoder/` | GUI-based Caesar and XOR encoder/decoder with tabbed interface and flexible key/shift input |
-| _More coming soon..._ | Plans include port scanners, HTTP header analyzer, SIEM analyzers and etc. |
+| `caesar-xor-encoder-decoder` | GUI-based Caesar and XOR encoder/decoder with tabbed interface and flexible key/shift input |
+| `ip-info-checker` | GUI tool to fetch and display IP geolocation, ASN, ISP, and basic risk insights using public APIs |
+| `http-header-analyzer` | GUI-based HTTP response header analyzer that highlights missing security headers and misconfigurations |
+| _More coming soon..._ | Plans include port scanners, SIEM analyzers, local device scanners, and more |
 
 ---
 
