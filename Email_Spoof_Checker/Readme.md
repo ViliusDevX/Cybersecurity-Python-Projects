@@ -1,8 +1,8 @@
-##📤 Email Spoof Checker
+# 📤 Email Spoof Checker
 
 A lightweight GUI application to evaluate a domain's email spoofing protection by inspecting its SPF, DMARC, and DKIM records.
 
-#🔍 Features
+🔍 Features
 
     ✅ SPF Check — Identifies and evaluates SPF configuration
 
@@ -16,7 +16,7 @@ A lightweight GUI application to evaluate a domain's email spoofing protection b
 
     🖥️ User Interface — Simple PyQt5 GUI
 
-#⚙️ How It Works
+⚙️ How It Works
 
     Enter a domain name (e.g., example.com) into the input field.
 
@@ -32,7 +32,7 @@ A lightweight GUI application to evaluate a domain's email spoofing protection b
 
     Displays a verdict and recommendations for improvements.
 
-#📌 Verdict System
+📌 Verdict System
 
 Score	Verdict
 5–6	✅ Secure Email Configuration
