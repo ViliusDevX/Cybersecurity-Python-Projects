@@ -39,13 +39,19 @@ Each project is organized into its own folder and includes:
 
 ## 🧭 Upcoming Projects
 
--🧰 Simple Port Scanner
+🧰 Simple Port Scanner
 
--🔍 Local Network Device Finder
+🔍 Local Network Device Finder
 
--🔐 JWT Token Parser & Verifier
+🔐 JWT Token Parser & Verifier
 
--🖥️ SIEM analyzer
+🖥️ SIEM Log Analyzer
+
+📤 Email Spoof Check Tool (SPF/DKIM/DMARC)
+
+🛡️ Public Bucket Misconfig Scanner (Mock S3 Audit)
+
+📋 Automated OSINT Report Generator
 
 ---
 
