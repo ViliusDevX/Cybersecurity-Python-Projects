@@ -73,4 +73,4 @@ Each project is organized into its own folder and includes:
 
 ## 🚀 Let's Connect
 
-I'm an aspiring junior penetration tester and cybersecurity student, passionate about hands-on learning and tool development. If you have suggestions, questions, or collaboration ideas, feel free to open an issue or reach out 🤙
+I'm an aspiring junior SOC analyst and cybersecurity student, passionate about hands-on learning and tool development. If you have suggestions, questions, or collaboration ideas, feel free to open an issue or reach out 🤙
