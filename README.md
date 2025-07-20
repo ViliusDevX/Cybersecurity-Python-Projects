@@ -17,10 +17,10 @@ A collection of intermediate Python projects focused on cybersecurity — built 
 
 Each project is organized into its own folder and includes:
 
-- ✅ Clean Python script  
-- 📘 README with usage instructions  
-- 🧠 Explanations of the cybersecurity concepts behind it  
-- 🖥️ (Optional) GUI or advanced features  
+✅ Clean Python script  
+📘 README with usage instructions  
+🧠 Explanations of the cybersecurity concepts behind it  
+🖥️ (Optional) GUI or advanced features  
 
 ---
 
@@ -57,17 +57,17 @@ Each project is organized into its own folder and includes:
 
 ## 📚 Skills Practiced
 
--🐍 Python logic, functions, and modular scripting
+🐍 Python logic, functions, and modular scripting
 
--📁 File handling, parsing, and string manipulation
+📁 File handling, parsing, and string manipulation
 
--🔐 Hashing, encoding, and cryptography basics
+🔐 Hashing, encoding, and cryptography basics
 
--🌐 Network requests, scanning, and local recon
+🌐 Network requests, scanning, and local recon
 
--🧠 Security concepts: password cracking, JWT, secure headers
+🧠 Security concepts: password cracking, JWT, secure headers
 
--🖥️ CLI and GUI design (PyQt5/tkinter)
+🖥️ CLI and GUI design (PyQt5/tkinter)
 
 ---
 
