@@ -24,16 +24,18 @@ Each project is organized into its own folder and includes:
 
 ---
 
-## 🧰 Current Projects
+##🧰 Current Projects
 
-| Project | Description |
-|--------|-------------|
-| `password-strength-checker` | CLI + GUI tool to analyze password complexity, entropy, and common password usage |
-| `hash-cracker` | GUI-based tool that performs offline dictionary attacks on hashes using rockyou.txt, or your own wordlist |
-| `caesar-xor-encoder-decoder` | GUI-based Caesar and XOR encoder/decoder with tabbed interface and flexible key/shift input |
-| `ip-info-checker` | GUI tool to fetch and display IP geolocation, ASN, ISP, and basic risk insights using public APIs |
-| `http-header-analyzer` | GUI-based HTTP response header analyzer that highlights missing security headers and misconfigurations |
-| _More coming soon..._ | Plans include port scanners, SIEM analyzers, local device scanners, and more |
+| Project                      | Description                                                                                               |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------- |
+| `password-strength-checker`  | CLI + GUI tool to analyze password complexity, entropy, and common password usage                         |
+| `hash-cracker`               | GUI-based tool that performs offline dictionary attacks on hashes using rockyou.txt, or your own wordlist |
+| `caesar-xor-encoder-decoder` | GUI-based Caesar and XOR encoder/decoder with tabbed interface and flexible key/shift input               |
+| `ip-info-checker`            | GUI tool to fetch and display IP geolocation, ASN, ISP, and basic risk insights using public APIs         |
+| `http-header-analyzer`       | GUI-based HTTP response header analyzer that highlights missing security headers and misconfigurations    |
+| `email-spoof-checker`        | GUI tool that checks SPF, DKIM, and DMARC records to estimate a domain’s email spoofing protection score  |
+| *More coming soon...*        | Plans include port scanners, SIEM analyzers, local device scanners, and more                              |
+
 
 ---
 
@@ -46,8 +48,6 @@ Each project is organized into its own folder and includes:
 🔐 JWT Token Parser & Verifier
 
 🖥️ SIEM Log Analyzer
-
-📤 Email Spoof Check Tool (SPF/DKIM/DMARC)
 
 🛡️ Public Bucket Misconfig Scanner (Mock S3 Audit)
 
