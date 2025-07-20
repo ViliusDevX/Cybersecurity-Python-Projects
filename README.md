@@ -6,7 +6,7 @@ A collection of intermediate Python projects focused on cybersecurity — built 
 
 ## 🎯 Goals of This Repo
 
-- Rebuild and strengthen my Python coding skills after ~1 year away  
+- Rebuild and strengthen my Python coding skills after some time without coding
 - Learn by building real-world tools and utilities  
 - Develop a hands-on portfolio that blends programming with cybersecurity  
 - Demonstrate my problem-solving, modular design, and applied security knowledge  
