@@ -33,7 +33,6 @@ A lightweight GUI application to evaluate a domain's email spoofing protection b
     Displays a verdict and recommendations for improvements.
 
 📌 Verdict System
-
 Score	Verdict
 5–6	✅ Secure Email Configuration
 3–4	⚠️ Acceptable but improvable
