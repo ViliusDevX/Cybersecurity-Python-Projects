@@ -24,7 +24,7 @@ Each project is organized into its own folder and includes:
 
 ---
 
-##🧰 Current Projects
+## 🧰 Current Projects
 
 | Project                      | Description                                                                                               |
 | ---------------------------- | --------------------------------------------------------------------------------------------------------- |
@@ -41,7 +41,7 @@ Each project is organized into its own folder and includes:
 
 ## 🧭 Upcoming Projects
 
-🧰 Simple Port Scanner
+🌐 Simple Port Scanner
 
 🔍 Local Network Device Finder
 
