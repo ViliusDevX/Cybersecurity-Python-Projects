@@ -34,7 +34,8 @@ Each project is organized into its own folder and includes:
 | `ip-info-checker`            | GUI tool to fetch and display IP geolocation, ASN, ISP, and basic risk insights using public APIs         |
 | `http-header-analyzer`       | GUI-based HTTP response header analyzer that highlights missing security headers and misconfigurations    |
 | `email-spoof-checker`        | GUI tool that checks SPF, DKIM, and DMARC records to estimate a domain’s email spoofing protection score  |
-| *More coming soon...*        | Plans include port scanners, SIEM analyzers, local device scanners, and more                              |
+| `port-scanner`               | Multi-threaded GUI-based port scanner with banner grabbing                                                |
+| *More coming soon...*        | Plans include SIEM analyzers, local device scanners, and automated OSINT tools                            |
 
 
 ---
