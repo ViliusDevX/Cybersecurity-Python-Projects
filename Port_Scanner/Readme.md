@@ -20,7 +20,7 @@ Scanning scanme.nmap.org from port 20 to 100...
 
 ## ⚠️ Disclaimer
 
-This tool is intended only for educational and personal portfolio use.
+This tool is intended only for educational and learning use.
 Do not scan domains or networks you don't own or have permission to test.
 Banner detection may give incomplete or no results depending on service response.
 
