@@ -74,7 +74,7 @@ class PortScanner(QWidget):
                 self.output_box.append(f"✅ Port {port} is open ({banner})")
             sock.close()
         except Exception as e:
-            pass  # You can log this if needed
+            pass
 
     def get_banner(self, sock):
         try:
