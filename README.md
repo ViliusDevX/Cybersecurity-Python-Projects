@@ -42,13 +42,11 @@ Each project is organized into its own folder and includes:
 
 ## 🧭 Upcoming Projects
 
-🌐 Simple Port Scanner
+🖥️ SIEM Log Analyzer
 
 🔍 Local Network Device Finder
 
 🔐 JWT Token Parser & Verifier
-
-🖥️ SIEM Log Analyzer
 
 🛡️ Public Bucket Misconfig Scanner (Mock S3 Audit)
 
