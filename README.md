@@ -35,7 +35,7 @@ Each project is organized into its own folder and includes:
 | `http-header-analyzer`       | GUI-based HTTP response header analyzer that highlights missing security headers and misconfigurations    |
 | `email-spoof-checker`        | GUI tool that checks SPF, DKIM, and DMARC records to estimate a domain’s email spoofing protection score  |
 | `port-scanner`               | Multi-threaded GUI-based port scanner with banner grabbing                                                |
-| `jwt-parses`                 | GUI tool to decode JWT tokens, display header and payload, check expiration, and verify HS256 signatures  |
+| `jwt-parser`                 | GUI tool to decode JWT tokens, display header and payload, check expiration, and verify HS256 signatures  |
 | *More coming soon...*        | Plans include SIEM analyzers, local device scanners, and automated OSINT tools                            |
 
 
