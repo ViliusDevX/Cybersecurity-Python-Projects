@@ -19,7 +19,7 @@ A lightweight desktop GUI tool built with Python and Tkinter to decode and verif
 
 A JWT is a token often used for user authentication in websites and APIs. It has three parts:
 
-<HEADER>.<PAYLOAD>.<SIGNATURE> ```
+<HEADER>.<PAYLOAD>.<SIGNATURE>
 
     Header: Info about the algorithm (e.g., HS256)
 
