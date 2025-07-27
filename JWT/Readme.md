@@ -40,6 +40,5 @@ A JWT is a token often used for user authentication in websites and APIs. It has
 Example Test Token
 
 This is a safe, public JWT for testing (from jwt.io):
-Token:
 
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
