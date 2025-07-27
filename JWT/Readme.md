@@ -1,5 +1,3 @@
-📄 README.md – JWT Parser & Verifier (Python GUI)
-
 # JWT Parser & Verifier (Python GUI)
 
 A lightweight desktop GUI tool built with Python and Tkinter to decode and verify JSON Web Tokens (JWT). Designed for developers, security learners, and pentesters who need to inspect JWTs and validate their integrity.
