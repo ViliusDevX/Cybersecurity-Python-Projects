@@ -47,9 +47,15 @@ Each project is organized into its own folder and includes:
 
 🔍 Local Network Device Finder
 
-🛡️ Public Bucket Misconfig Scanner (Mock S3 Audit)
+🛡️ Public Bucket Misconfig Scanner
 
 📋 Automated OSINT Report Generator
+
+🍪 Browser Cookie Security Auditor
+
+📦 Cloud IAM Policy Linter
+
+🌐 Subdomain Takeover Detector
 
 ---
 
