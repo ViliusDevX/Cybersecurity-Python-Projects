@@ -36,7 +36,8 @@ Each project is organized into its own folder and includes:
 | `email-spoof-checker`        | GUI tool that checks SPF, DKIM, and DMARC records to estimate a domain’s email spoofing protection score  |
 | `port-scanner`               | Multi-threaded GUI-based port scanner with banner grabbing                                                |
 | `jwt-parser`                 | GUI tool to decode JWT tokens, display header and payload, check expiration, and verify HS256 signatures  |
-| *More coming soon...*        | Plans include SIEM analyzers, local device scanners, and automated OSINT tools                            |
+| `browser-cookie-scanner`     | CLI tool to audit Set-Cookie headers, detect missing security flags, session cookies, and cookie lifespan |
+| *More coming soon...*        | Plans include SIEM analyzers, Public Bucket Misconfig Scanner, and automated OSINT tools                  |
 
 
 ---
@@ -48,8 +49,6 @@ Each project is organized into its own folder and includes:
 🛡️ Public Bucket Misconfig Scanner
 
 📋 Automated OSINT Report Generator
-
-🍪 Browser Cookie Security Auditor
 
 📦 Cloud IAM Policy Linter
 
