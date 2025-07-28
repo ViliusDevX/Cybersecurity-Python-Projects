@@ -1,6 +1,6 @@
 # 📄 Cookie Security Auditor
 
-**Browser_Cookie_Scanner** is a Python-based tool that inspects the `Set-Cookie` headers from HTTP responses and evaluates the security of each cookie.
+Browser_Cookie_Scanner is a Python-based tool that inspects the `Set-Cookie` headers from HTTP responses and evaluates the security of each cookie.
 
 It checks for common best practices like `Secure`, `HttpOnly`, and `SameSite` flags, and gives a summary report with potential weaknesses.
 
