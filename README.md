@@ -45,8 +45,6 @@ Each project is organized into its own folder and includes:
 
 🖥️ SIEM Log Analyzer
 
-🔍 Local Network Device Finder
-
 🛡️ Public Bucket Misconfig Scanner
 
 📋 Automated OSINT Report Generator
