@@ -33,6 +33,7 @@ Each project is organized into its own folder and includes:
 | `caesar-xor-encoder-decoder` | GUI-based Caesar and XOR encoder/decoder with tabbed interface and flexible key/shift input               |
 | `ip-info-checker`            | GUI tool to fetch and display IP geolocation, ASN, ISP, and basic risk insights using public APIs         |
 | `http-header-analyzer`       | GUI-based HTTP response header analyzer that highlights missing security headers and misconfigurations    |
+| `device-scanner`             | CLI tool to list all reachable devices along with their IP and MAC addresses                              |
 | `email-spoof-checker`        | GUI tool that checks SPF, DKIM, and DMARC records to estimate a domain’s email spoofing protection score  |
 | `port-scanner`               | Multi-threaded GUI-based port scanner with banner grabbing                                                |
 | `jwt-parser`                 | GUI tool to decode JWT tokens, display header and payload, check expiration, and verify HS256 signatures  |
