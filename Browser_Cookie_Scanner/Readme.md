@@ -20,22 +20,6 @@ It checks for common best practices like `Secure`, `HttpOnly`, and `SameSite` fl
 
 ---
 
-## 🧪 Safe Test URLs
-
-These domains are legal and publicly safe to scan using this tool:
-
-    https://httpbin.org/cookies/set?mycookie=testvalue
-
-    https://example.com
-
-    https://neverssl.com
-
-    https://postman-echo.com
-
-    https://portswigger.net/web-security
-
-    ❗ Note: Most real websites only set cookies after login or via JavaScript, which this tool doesn’t see. Use known test endpoints to verify behavior.
-
 ## 🔒 What This Tool Does *Not* Do
 
     It does not send POST requests or login attempts
@@ -45,6 +29,8 @@ These domains are legal and publicly safe to scan using this tool:
     It does not run JavaScript (only inspects raw HTTP headers)
 
 This tool is 100% passive and safe when used responsibly on public endpoints.
+
+❗ Note: Most real websites only set cookies after login or via JavaScript, which this tool doesn’t see. Use known test endpoints to verify behavior.
 
 ## ⚠️ **Disclaimer**
 
