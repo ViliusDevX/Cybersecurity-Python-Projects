@@ -1,0 +1,23 @@
+- name: NetSupport RAT Detected
+  match: NetSupport RAT
+  severity: high
+
+- name: Suspicious DNS Domain
+  match: modandcrackedapk
+  severity: high
+
+- name: TLSv1.0 Usage
+  match: TLSv1.0
+  severity: medium
+
+- name: SMBv1 Protocol
+  match: SMBv1 protocol
+  severity: high
+
+- name: DOS Attempt
+  match: Max Data Count of 0 DOS Attempt
+  severity: high
+
+- name: HTTP on Unusual Port
+  match: HTTP POST on unusual Port
+  severity: high

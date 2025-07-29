@@ -1,0 +1,7 @@
+Rule Name,Severity,Match Count
+TLSv1.0 Usage,medium,1
+SMBv1 Protocol,high,1
+DOS Attempt,high,1
+Suspicious DNS Domain,high,2
+HTTP on Unusual Port,high,1
+NetSupport RAT Detected,high,2

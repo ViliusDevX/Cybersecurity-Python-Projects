@@ -1,0 +1,42 @@
+[
+    {
+        "rule_name": "TLSv1.0 Usage",
+        "severity": "medium",
+        "line": "ET POLICY TLSv1.0 Used in Session"
+    },
+    {
+        "rule_name": "SMBv1 Protocol",
+        "severity": "high",
+        "line": "ET INFO Potentially unsafe SMBv1 protocol in use"
+    },
+    {
+        "rule_name": "DOS Attempt",
+        "severity": "high",
+        "line": "GPL NETBIOS SMB SMB_COM_TRANSACTION Max Data Count of 0 DOS Attempt"
+    },
+    {
+        "rule_name": "Suspicious DNS Domain",
+        "severity": "high",
+        "line": "ET CURRENT_EVENTS ZPHP Domain in DNS Lookup (modandcrackedapk .com)"
+    },
+    {
+        "rule_name": "Suspicious DNS Domain",
+        "severity": "high",
+        "line": "ET CURRENT_EVENTS ZPHP Domain in TLS SNI (modandcrackedapk .com)"
+    },
+    {
+        "rule_name": "HTTP on Unusual Port",
+        "severity": "high",
+        "line": "ET POLICY HTTP POST on unusual Port Possibly Hostile"
+    },
+    {
+        "rule_name": "NetSupport RAT Detected",
+        "severity": "high",
+        "line": "ETPRO TROJAN NetSupport RAT CnC Activity"
+    },
+    {
+        "rule_name": "NetSupport RAT Detected",
+        "severity": "high",
+        "line": "ETPRO TROJAN Malicious NetSupport Rat CnC Checkin"
+    }
+]
