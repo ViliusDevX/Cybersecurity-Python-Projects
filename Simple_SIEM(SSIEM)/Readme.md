@@ -18,14 +18,14 @@ It features a **modern graphical interface** built with `ttkbootstrap` and suppo
 
 ## 📁 Project Structure
 
-Simple_SIEM(SSIEM)/
-├── SSIEM.py # Main GUI application
-├── rules/
-│ └── suricata/
-│ └── rules.yaml # YAML rules for pattern detection
-├── logs/ # Place your Suricata .txt log files here
-├── output/ # Output folder for alerts.json & alerts.csv
-└── README.md
+    Simple_SIEM(SSIEM)/
+    ├── SSIEM.py # Main GUI application
+    ├── rules/
+    │ └── suricata/
+    │ └── rules.yaml # YAML rules for pattern detection
+    ├── logs/ # Place your Suricata .txt log files here
+    ├── output/ # Output folder for alerts.json & alerts.csv
+    └── README.md
 
 ---
 
