@@ -21,9 +21,9 @@ It supports both Suricata text logs and DNS JSON logs with a modern GUI built us
 
 ## 🗂️ Supported Log Types
 
-Log Type	Format	Description
-Suricata	.txt	Snort-style IDS logs in plaintext
-DNS	.json	JSON logs exported from tools like tshark or Wireshark
+    Log Type	Format	Description
+    Suricata	.txt	Snort-style IDS logs in plaintext
+    DNS	.json	JSON logs exported from tools like tshark or Wireshark
 
 ## 📁 Project Structure
 
