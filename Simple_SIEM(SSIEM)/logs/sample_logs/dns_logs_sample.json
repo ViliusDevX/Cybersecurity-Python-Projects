@@ -1,0 +1,1441 @@
+[
+  {
+    "_index": "packets-2025-06-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Jun 13, 2025 18:33:55.712627000 FLE Daylight Time",
+          "frame.time_utc": "Jun 13, 2025 15:33:55.712627000 UTC",
+          "frame.time_epoch": "1749828835.712627000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.000001000",
+          "frame.time_delta_displayed": "0.000000000",
+          "frame.time_relative": "0.026076000",
+          "frame.number": "7",
+          "frame.len": "81",
+          "frame.cap_len": "81",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:dns"
+        },
+        "eth": {
+          "eth.dst": "00:26:b9:71:ad:36",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Dell_71:ad:36",
+            "eth.dst.oui": "9913",
+            "eth.dst.oui_resolved": "Dell Inc.",
+            "eth.dst.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.addr": "00:26:b9:71:ad:36",
+            "eth.addr_resolved": "Dell_71:ad:36",
+            "eth.addr.oui": "9913",
+            "eth.addr.oui_resolved": "Dell Inc.",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "24:77:03:ac:97:df",
+          "eth.src_tree": {
+            "eth.src_resolved": "Intel_ac:97:df",
+            "eth.src.oui": "2389763",
+            "eth.src.oui_resolved": "Intel Corporate",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "24:77:03:ac:97:df",
+            "eth.addr_resolved": "Intel_ac:97:df",
+            "eth.addr.oui": "2389763",
+            "eth.addr.oui_resolved": "Intel Corporate",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "2"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "67",
+          "ip.id": "0x829f",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "17",
+          "ip.checksum": "0x8977",
+          "ip.checksum.status": "2",
+          "ip.src": "10.6.13.133",
+          "ip.addr": "10.6.13.3",
+          "ip.src_host": "10.6.13.133",
+          "ip.host": "10.6.13.3",
+          "ip.dst": "10.6.13.3",
+          "ip.dst_host": "10.6.13.3",
+          "ip.stream": "2"
+        },
+        "udp": {
+          "udp.srcport": "61943",
+          "udp.dstport": "53",
+          "udp.port": "53",
+          "udp.length": "47",
+          "udp.checksum": "0xd007",
+          "udp.checksum.status": "2",
+          "udp.stream": "2",
+          "udp.stream.pnum": "1",
+          "Timestamps": {
+            "udp.time_relative": "0.000000000",
+            "udp.time_delta": "0.000000000"
+          },
+          "udp.payload": "2b:8f:01:00:00:01:00:00:00:00:00:00:04:77:70:61:64:0c:6d:61:73:73:66:72:69:63:74:69:6f:6e:03:63:6f:6d:00:00:01:00:01"
+        },
+        "dns": {
+          "dns.id": "0x2b8f",
+          "dns.flags": "0x0100",
+          "dns.flags_tree": {
+            "dns.flags.response": "0",
+            "dns.flags.opcode": "0",
+            "dns.flags.truncated": "0",
+            "dns.flags.recdesired": "1",
+            "dns.flags.z": "0",
+            "dns.flags.checkdisable": "0"
+          },
+          "dns.count.queries": "1",
+          "dns.count.answers": "0",
+          "dns.count.auth_rr": "0",
+          "dns.count.add_rr": "0",
+          "Queries": {
+            "wpad.massfriction.com: type A, class IN": {
+              "dns.qry.name": "wpad.massfriction.com",
+              "dns.qry.name.len": "21",
+              "dns.count.labels": "3",
+              "dns.qry.type": "1",
+              "dns.qry.class": "0x0001"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2025-06-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Jun 13, 2025 18:33:55.712981000 FLE Daylight Time",
+          "frame.time_utc": "Jun 13, 2025 15:33:55.712981000 UTC",
+          "frame.time_epoch": "1749828835.712981000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.000354000",
+          "frame.time_delta_displayed": "0.000354000",
+          "frame.time_relative": "0.026430000",
+          "frame.number": "8",
+          "frame.len": "160",
+          "frame.cap_len": "160",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:dns"
+        },
+        "eth": {
+          "eth.dst": "24:77:03:ac:97:df",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Intel_ac:97:df",
+            "eth.dst.oui": "2389763",
+            "eth.dst.oui_resolved": "Intel Corporate",
+            "eth.dst.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.addr": "24:77:03:ac:97:df",
+            "eth.addr_resolved": "Intel_ac:97:df",
+            "eth.addr.oui": "2389763",
+            "eth.addr.oui_resolved": "Intel Corporate",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:26:b9:71:ad:36",
+          "eth.src_tree": {
+            "eth.src_resolved": "Dell_71:ad:36",
+            "eth.src.oui": "9913",
+            "eth.src.oui_resolved": "Dell Inc.",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "00:26:b9:71:ad:36",
+            "eth.addr_resolved": "Dell_71:ad:36",
+            "eth.addr.oui": "9913",
+            "eth.addr.oui_resolved": "Dell Inc.",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "2"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "146",
+          "ip.id": "0x454a",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "17",
+          "ip.checksum": "0xc67d",
+          "ip.checksum.status": "2",
+          "ip.src": "10.6.13.3",
+          "ip.addr": "10.6.13.133",
+          "ip.src_host": "10.6.13.3",
+          "ip.host": "10.6.13.133",
+          "ip.dst": "10.6.13.133",
+          "ip.dst_host": "10.6.13.133",
+          "ip.stream": "2"
+        },
+        "udp": {
+          "udp.srcport": "53",
+          "udp.dstport": "61943",
+          "udp.port": "61943",
+          "udp.length": "126",
+          "udp.checksum": "0x3843",
+          "udp.checksum.status": "2",
+          "udp.stream": "2",
+          "udp.stream.pnum": "2",
+          "Timestamps": {
+            "udp.time_relative": "0.000354000",
+            "udp.time_delta": "0.000354000"
+          },
+          "udp.payload": "2b:8f:85:83:00:01:00:00:00:01:00:00:04:77:70:61:64:0c:6d:61:73:73:66:72:69:63:74:69:6f:6e:03:63:6f:6d:00:00:01:00:01:0c:6d:61:73:73:66:72:69:63:74:69:6f:6e:03:63:6f:6d:00:00:06:00:01:00:00:0e:10:00:33:0f:77:69:6e:2d:64:71:6c:34:77:66:77:6a:78:71:34:c0:27:0a:68:6f:73:74:6d:61:73:74:65:72:c0:27:00:00:00:1b:00:00:03:84:00:00:02:58:00:01:51:80:00:00:0e:10"
+        },
+        "dns": {
+          "dns.id": "0x2b8f",
+          "dns.flags": "0x8583",
+          "dns.flags_tree": {
+            "dns.flags.response": "1",
+            "dns.flags.opcode": "0",
+            "dns.flags.authoritative": "1",
+            "dns.flags.truncated": "0",
+            "dns.flags.recdesired": "1",
+            "dns.flags.recavail": "1",
+            "dns.flags.z": "0",
+            "dns.flags.authenticated": "0",
+            "dns.flags.checkdisable": "0",
+            "dns.flags.rcode": "3"
+          },
+          "dns.count.queries": "1",
+          "dns.count.answers": "0",
+          "dns.count.auth_rr": "1",
+          "dns.count.add_rr": "0",
+          "Queries": {
+            "wpad.massfriction.com: type A, class IN": {
+              "dns.qry.name": "wpad.massfriction.com",
+              "dns.qry.name.len": "21",
+              "dns.count.labels": "3",
+              "dns.qry.type": "1",
+              "dns.qry.class": "0x0001"
+            }
+          },
+          "Authoritative nameservers": {
+            "massfriction.com: type SOA, class IN, mname win-dql4wfwjxq4.massfriction.com": {
+              "dns.resp.name": "massfriction.com",
+              "dns.resp.type": "6",
+              "dns.resp.class": "0x0001",
+              "dns.resp.ttl": "3600",
+              "dns.resp.len": "51",
+              "dns.soa.mname": "win-dql4wfwjxq4.massfriction.com",
+              "dns.soa.rname": "hostmaster.massfriction.com",
+              "dns.soa.serial_number": "27",
+              "dns.soa.refresh_interval": "900",
+              "dns.soa.retry_interval": "600",
+              "dns.soa.expire_limit": "86400",
+              "dns.soa.minimum_ttl": "3600"
+            }
+          },
+          "dns.response_to": "7",
+          "dns.time": "0.000354000"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2025-06-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Jun 13, 2025 18:33:55.714176000 FLE Daylight Time",
+          "frame.time_utc": "Jun 13, 2025 15:33:55.714176000 UTC",
+          "frame.time_epoch": "1749828835.714176000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.001195000",
+          "frame.time_delta_displayed": "0.001195000",
+          "frame.time_relative": "0.027625000",
+          "frame.number": "9",
+          "frame.len": "92",
+          "frame.cap_len": "92",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:dns"
+        },
+        "eth": {
+          "eth.dst": "00:26:b9:71:ad:36",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Dell_71:ad:36",
+            "eth.dst.oui": "9913",
+            "eth.dst.oui_resolved": "Dell Inc.",
+            "eth.dst.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.addr": "00:26:b9:71:ad:36",
+            "eth.addr_resolved": "Dell_71:ad:36",
+            "eth.addr.oui": "9913",
+            "eth.addr.oui_resolved": "Dell Inc.",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "24:77:03:ac:97:df",
+          "eth.src_tree": {
+            "eth.src_resolved": "Intel_ac:97:df",
+            "eth.src.oui": "2389763",
+            "eth.src.oui_resolved": "Intel Corporate",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "24:77:03:ac:97:df",
+            "eth.addr_resolved": "Intel_ac:97:df",
+            "eth.addr.oui": "2389763",
+            "eth.addr.oui_resolved": "Intel Corporate",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "2"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "78",
+          "ip.id": "0x82a0",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "17",
+          "ip.checksum": "0x896b",
+          "ip.checksum.status": "2",
+          "ip.src": "10.6.13.133",
+          "ip.addr": "10.6.13.3",
+          "ip.src_host": "10.6.13.133",
+          "ip.host": "10.6.13.3",
+          "ip.dst": "10.6.13.3",
+          "ip.dst_host": "10.6.13.3",
+          "ip.stream": "2"
+        },
+        "udp": {
+          "udp.srcport": "52241",
+          "udp.dstport": "53",
+          "udp.port": "53",
+          "udp.length": "58",
+          "udp.checksum": "0x7668",
+          "udp.checksum.status": "2",
+          "udp.stream": "3",
+          "udp.stream.pnum": "1",
+          "Timestamps": {
+            "udp.time_relative": "0.000000000",
+            "udp.time_delta": "0.000000000"
+          },
+          "udp.payload": "56:e9:01:00:00:01:00:00:00:00:00:00:0f:44:45:53:4b:54:4f:50:2d:35:41:56:45:34:34:43:0c:6d:61:73:73:66:72:69:63:74:69:6f:6e:03:63:6f:6d:00:00:06:00:01"
+        },
+        "dns": {
+          "dns.id": "0x56e9",
+          "dns.flags": "0x0100",
+          "dns.flags_tree": {
+            "dns.flags.response": "0",
+            "dns.flags.opcode": "0",
+            "dns.flags.truncated": "0",
+            "dns.flags.recdesired": "1",
+            "dns.flags.z": "0",
+            "dns.flags.checkdisable": "0"
+          },
+          "dns.count.queries": "1",
+          "dns.count.answers": "0",
+          "dns.count.auth_rr": "0",
+          "dns.count.add_rr": "0",
+          "Queries": {
+            "DESKTOP-5AVE44C.massfriction.com: type SOA, class IN": {
+              "dns.qry.name": "DESKTOP-5AVE44C.massfriction.com",
+              "dns.qry.name.len": "32",
+              "dns.count.labels": "3",
+              "dns.qry.type": "6",
+              "dns.qry.class": "0x0001"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2025-06-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Jun 13, 2025 18:33:55.714359000 FLE Daylight Time",
+          "frame.time_utc": "Jun 13, 2025 15:33:55.714359000 UTC",
+          "frame.time_epoch": "1749828835.714359000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.000183000",
+          "frame.time_delta_displayed": "0.000183000",
+          "frame.time_relative": "0.027808000",
+          "frame.number": "10",
+          "frame.len": "81",
+          "frame.cap_len": "81",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:dns"
+        },
+        "eth": {
+          "eth.dst": "00:26:b9:71:ad:36",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Dell_71:ad:36",
+            "eth.dst.oui": "9913",
+            "eth.dst.oui_resolved": "Dell Inc.",
+            "eth.dst.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.addr": "00:26:b9:71:ad:36",
+            "eth.addr_resolved": "Dell_71:ad:36",
+            "eth.addr.oui": "9913",
+            "eth.addr.oui_resolved": "Dell Inc.",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "24:77:03:ac:97:df",
+          "eth.src_tree": {
+            "eth.src_resolved": "Intel_ac:97:df",
+            "eth.src.oui": "2389763",
+            "eth.src.oui_resolved": "Intel Corporate",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "24:77:03:ac:97:df",
+            "eth.addr_resolved": "Intel_ac:97:df",
+            "eth.addr.oui": "2389763",
+            "eth.addr.oui_resolved": "Intel Corporate",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "2"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "67",
+          "ip.id": "0x82a1",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "17",
+          "ip.checksum": "0x8975",
+          "ip.checksum.status": "2",
+          "ip.src": "10.6.13.133",
+          "ip.addr": "10.6.13.3",
+          "ip.src_host": "10.6.13.133",
+          "ip.host": "10.6.13.3",
+          "ip.dst": "10.6.13.3",
+          "ip.dst_host": "10.6.13.3",
+          "ip.stream": "2"
+        },
+        "udp": {
+          "udp.srcport": "53493",
+          "udp.dstport": "53",
+          "udp.port": "53",
+          "udp.length": "47",
+          "udp.checksum": "0xd38b",
+          "udp.checksum.status": "2",
+          "udp.stream": "4",
+          "udp.stream.pnum": "1",
+          "Timestamps": {
+            "udp.time_relative": "0.000000000",
+            "udp.time_delta": "0.000000000"
+          },
+          "udp.payload": "49:0d:01:00:00:01:00:00:00:00:00:00:04:77:70:61:64:0c:6d:61:73:73:66:72:69:63:74:69:6f:6e:03:63:6f:6d:00:00:01:00:01"
+        },
+        "dns": {
+          "dns.id": "0x490d",
+          "dns.flags": "0x0100",
+          "dns.flags_tree": {
+            "dns.flags.response": "0",
+            "dns.flags.opcode": "0",
+            "dns.flags.truncated": "0",
+            "dns.flags.recdesired": "1",
+            "dns.flags.z": "0",
+            "dns.flags.checkdisable": "0"
+          },
+          "dns.count.queries": "1",
+          "dns.count.answers": "0",
+          "dns.count.auth_rr": "0",
+          "dns.count.add_rr": "0",
+          "Queries": {
+            "wpad.massfriction.com: type A, class IN": {
+              "dns.qry.name": "wpad.massfriction.com",
+              "dns.qry.name.len": "21",
+              "dns.count.labels": "3",
+              "dns.qry.type": "1",
+              "dns.qry.class": "0x0001"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2025-06-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Jun 13, 2025 18:33:55.714360000 FLE Daylight Time",
+          "frame.time_utc": "Jun 13, 2025 15:33:55.714360000 UTC",
+          "frame.time_epoch": "1749828835.714360000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.000001000",
+          "frame.time_delta_displayed": "0.000001000",
+          "frame.time_relative": "0.027809000",
+          "frame.number": "11",
+          "frame.len": "171",
+          "frame.cap_len": "171",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:dns"
+        },
+        "eth": {
+          "eth.dst": "24:77:03:ac:97:df",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Intel_ac:97:df",
+            "eth.dst.oui": "2389763",
+            "eth.dst.oui_resolved": "Intel Corporate",
+            "eth.dst.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.addr": "24:77:03:ac:97:df",
+            "eth.addr_resolved": "Intel_ac:97:df",
+            "eth.addr.oui": "2389763",
+            "eth.addr.oui_resolved": "Intel Corporate",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:26:b9:71:ad:36",
+          "eth.src_tree": {
+            "eth.src_resolved": "Dell_71:ad:36",
+            "eth.src.oui": "9913",
+            "eth.src.oui_resolved": "Dell Inc.",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "00:26:b9:71:ad:36",
+            "eth.addr_resolved": "Dell_71:ad:36",
+            "eth.addr.oui": "9913",
+            "eth.addr.oui_resolved": "Dell Inc.",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "2"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "157",
+          "ip.id": "0x454b",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "17",
+          "ip.checksum": "0xc671",
+          "ip.checksum.status": "2",
+          "ip.src": "10.6.13.3",
+          "ip.addr": "10.6.13.133",
+          "ip.src_host": "10.6.13.3",
+          "ip.host": "10.6.13.133",
+          "ip.dst": "10.6.13.133",
+          "ip.dst_host": "10.6.13.133",
+          "ip.stream": "2"
+        },
+        "udp": {
+          "udp.srcport": "53",
+          "udp.dstport": "52241",
+          "udp.port": "52241",
+          "udp.length": "137",
+          "udp.checksum": "0x9b45",
+          "udp.checksum.status": "2",
+          "udp.stream": "3",
+          "udp.stream.pnum": "2",
+          "Timestamps": {
+            "udp.time_relative": "0.000184000",
+            "udp.time_delta": "0.000184000"
+          },
+          "udp.payload": "56:e9:85:80:00:01:00:00:00:01:00:01:0f:44:45:53:4b:54:4f:50:2d:35:41:56:45:34:34:43:0c:6d:61:73:73:66:72:69:63:74:69:6f:6e:03:63:6f:6d:00:00:06:00:01:c0:1c:00:06:00:01:00:00:0e:10:00:33:0f:77:69:6e:2d:64:71:6c:34:77:66:77:6a:78:71:34:c0:1c:0a:68:6f:73:74:6d:61:73:74:65:72:c0:1c:00:00:00:1b:00:00:03:84:00:00:02:58:00:01:51:80:00:00:0e:10:c0:3e:00:01:00:01:00:00:0e:10:00:04:0a:06:0d:03"
+        },
+        "dns": {
+          "dns.id": "0x56e9",
+          "dns.flags": "0x8580",
+          "dns.flags_tree": {
+            "dns.flags.response": "1",
+            "dns.flags.opcode": "0",
+            "dns.flags.authoritative": "1",
+            "dns.flags.truncated": "0",
+            "dns.flags.recdesired": "1",
+            "dns.flags.recavail": "1",
+            "dns.flags.z": "0",
+            "dns.flags.authenticated": "0",
+            "dns.flags.checkdisable": "0",
+            "dns.flags.rcode": "0"
+          },
+          "dns.count.queries": "1",
+          "dns.count.answers": "0",
+          "dns.count.auth_rr": "1",
+          "dns.count.add_rr": "1",
+          "Queries": {
+            "DESKTOP-5AVE44C.massfriction.com: type SOA, class IN": {
+              "dns.qry.name": "DESKTOP-5AVE44C.massfriction.com",
+              "dns.qry.name.len": "32",
+              "dns.count.labels": "3",
+              "dns.qry.type": "6",
+              "dns.qry.class": "0x0001"
+            }
+          },
+          "Authoritative nameservers": {
+            "massfriction.com: type SOA, class IN, mname win-dql4wfwjxq4.massfriction.com": {
+              "dns.resp.name": "massfriction.com",
+              "dns.resp.type": "6",
+              "dns.resp.class": "0x0001",
+              "dns.resp.ttl": "3600",
+              "dns.resp.len": "51",
+              "dns.soa.mname": "win-dql4wfwjxq4.massfriction.com",
+              "dns.soa.rname": "hostmaster.massfriction.com",
+              "dns.soa.serial_number": "27",
+              "dns.soa.refresh_interval": "900",
+              "dns.soa.retry_interval": "600",
+              "dns.soa.expire_limit": "86400",
+              "dns.soa.minimum_ttl": "3600"
+            }
+          },
+          "Additional records": {
+            "win-dql4wfwjxq4.massfriction.com: type A, class IN, addr 10.6.13.3": {
+              "dns.resp.name": "win-dql4wfwjxq4.massfriction.com",
+              "dns.resp.type": "1",
+              "dns.resp.class": "0x0001",
+              "dns.resp.ttl": "3600",
+              "dns.resp.len": "4",
+              "dns.a": "10.6.13.3"
+            }
+          },
+          "dns.response_to": "9",
+          "dns.time": "0.000184000"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2025-06-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Jun 13, 2025 18:33:55.714570000 FLE Daylight Time",
+          "frame.time_utc": "Jun 13, 2025 15:33:55.714570000 UTC",
+          "frame.time_epoch": "1749828835.714570000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.000209000",
+          "frame.time_delta_displayed": "0.000210000",
+          "frame.time_relative": "0.028019000",
+          "frame.number": "13",
+          "frame.len": "160",
+          "frame.cap_len": "160",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:dns"
+        },
+        "eth": {
+          "eth.dst": "24:77:03:ac:97:df",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Intel_ac:97:df",
+            "eth.dst.oui": "2389763",
+            "eth.dst.oui_resolved": "Intel Corporate",
+            "eth.dst.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.addr": "24:77:03:ac:97:df",
+            "eth.addr_resolved": "Intel_ac:97:df",
+            "eth.addr.oui": "2389763",
+            "eth.addr.oui_resolved": "Intel Corporate",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:26:b9:71:ad:36",
+          "eth.src_tree": {
+            "eth.src_resolved": "Dell_71:ad:36",
+            "eth.src.oui": "9913",
+            "eth.src.oui_resolved": "Dell Inc.",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "00:26:b9:71:ad:36",
+            "eth.addr_resolved": "Dell_71:ad:36",
+            "eth.addr.oui": "9913",
+            "eth.addr.oui_resolved": "Dell Inc.",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "2"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "146",
+          "ip.id": "0x454c",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "17",
+          "ip.checksum": "0xc67b",
+          "ip.checksum.status": "2",
+          "ip.src": "10.6.13.3",
+          "ip.addr": "10.6.13.133",
+          "ip.src_host": "10.6.13.3",
+          "ip.host": "10.6.13.133",
+          "ip.dst": "10.6.13.133",
+          "ip.dst_host": "10.6.13.133",
+          "ip.stream": "2"
+        },
+        "udp": {
+          "udp.srcport": "53",
+          "udp.dstport": "53493",
+          "udp.port": "53493",
+          "udp.length": "126",
+          "udp.checksum": "0x3bc7",
+          "udp.checksum.status": "2",
+          "udp.stream": "4",
+          "udp.stream.pnum": "2",
+          "Timestamps": {
+            "udp.time_relative": "0.000211000",
+            "udp.time_delta": "0.000211000"
+          },
+          "udp.payload": "49:0d:85:83:00:01:00:00:00:01:00:00:04:77:70:61:64:0c:6d:61:73:73:66:72:69:63:74:69:6f:6e:03:63:6f:6d:00:00:01:00:01:0c:6d:61:73:73:66:72:69:63:74:69:6f:6e:03:63:6f:6d:00:00:06:00:01:00:00:0e:10:00:33:0f:77:69:6e:2d:64:71:6c:34:77:66:77:6a:78:71:34:c0:27:0a:68:6f:73:74:6d:61:73:74:65:72:c0:27:00:00:00:1b:00:00:03:84:00:00:02:58:00:01:51:80:00:00:0e:10"
+        },
+        "dns": {
+          "dns.id": "0x490d",
+          "dns.flags": "0x8583",
+          "dns.flags_tree": {
+            "dns.flags.response": "1",
+            "dns.flags.opcode": "0",
+            "dns.flags.authoritative": "1",
+            "dns.flags.truncated": "0",
+            "dns.flags.recdesired": "1",
+            "dns.flags.recavail": "1",
+            "dns.flags.z": "0",
+            "dns.flags.authenticated": "0",
+            "dns.flags.checkdisable": "0",
+            "dns.flags.rcode": "3"
+          },
+          "dns.count.queries": "1",
+          "dns.count.answers": "0",
+          "dns.count.auth_rr": "1",
+          "dns.count.add_rr": "0",
+          "Queries": {
+            "wpad.massfriction.com: type A, class IN": {
+              "dns.qry.name": "wpad.massfriction.com",
+              "dns.qry.name.len": "21",
+              "dns.count.labels": "3",
+              "dns.qry.type": "1",
+              "dns.qry.class": "0x0001"
+            }
+          },
+          "Authoritative nameservers": {
+            "massfriction.com: type SOA, class IN, mname win-dql4wfwjxq4.massfriction.com": {
+              "dns.resp.name": "massfriction.com",
+              "dns.resp.type": "6",
+              "dns.resp.class": "0x0001",
+              "dns.resp.ttl": "3600",
+              "dns.resp.len": "51",
+              "dns.soa.mname": "win-dql4wfwjxq4.massfriction.com",
+              "dns.soa.rname": "hostmaster.massfriction.com",
+              "dns.soa.serial_number": "27",
+              "dns.soa.refresh_interval": "900",
+              "dns.soa.retry_interval": "600",
+              "dns.soa.expire_limit": "86400",
+              "dns.soa.minimum_ttl": "3600"
+            }
+          },
+          "dns.response_to": "10",
+          "dns.time": "0.000211000"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2025-06-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Jun 13, 2025 18:33:55.715541000 FLE Daylight Time",
+          "frame.time_utc": "Jun 13, 2025 15:33:55.715541000 UTC",
+          "frame.time_epoch": "1749828835.715541000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.000971000",
+          "frame.time_delta_displayed": "0.000971000",
+          "frame.time_relative": "0.028990000",
+          "frame.number": "14",
+          "frame.len": "160",
+          "frame.cap_len": "160",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:dns"
+        },
+        "eth": {
+          "eth.dst": "00:26:b9:71:ad:36",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Dell_71:ad:36",
+            "eth.dst.oui": "9913",
+            "eth.dst.oui_resolved": "Dell Inc.",
+            "eth.dst.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.addr": "00:26:b9:71:ad:36",
+            "eth.addr_resolved": "Dell_71:ad:36",
+            "eth.addr.oui": "9913",
+            "eth.addr.oui_resolved": "Dell Inc.",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "24:77:03:ac:97:df",
+          "eth.src_tree": {
+            "eth.src_resolved": "Intel_ac:97:df",
+            "eth.src.oui": "2389763",
+            "eth.src.oui_resolved": "Intel Corporate",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "24:77:03:ac:97:df",
+            "eth.addr_resolved": "Intel_ac:97:df",
+            "eth.addr.oui": "2389763",
+            "eth.addr.oui_resolved": "Intel Corporate",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "2"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "146",
+          "ip.id": "0x82a2",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "17",
+          "ip.checksum": "0x8925",
+          "ip.checksum.status": "2",
+          "ip.src": "10.6.13.133",
+          "ip.addr": "10.6.13.3",
+          "ip.src_host": "10.6.13.133",
+          "ip.host": "10.6.13.3",
+          "ip.dst": "10.6.13.3",
+          "ip.dst_host": "10.6.13.3",
+          "ip.stream": "2"
+        },
+        "udp": {
+          "udp.srcport": "52241",
+          "udp.dstport": "53",
+          "udp.port": "53",
+          "udp.length": "126",
+          "udp.checksum": "0x92a7",
+          "udp.checksum.status": "2",
+          "udp.stream": "3",
+          "udp.stream.pnum": "3",
+          "Timestamps": {
+            "udp.time_relative": "0.001365000",
+            "udp.time_delta": "0.001181000"
+          },
+          "udp.payload": "54:4f:28:00:00:01:00:01:00:03:00:00:0c:6d:61:73:73:66:72:69:63:74:69:6f:6e:03:63:6f:6d:00:00:06:00:01:0f:44:45:53:4b:54:4f:50:2d:35:41:56:45:34:34:43:0c:6d:61:73:73:66:72:69:63:74:69:6f:6e:03:63:6f:6d:00:00:05:00:fe:00:00:00:00:00:00:c0:22:00:1c:00:ff:00:00:00:00:00:00:c0:22:00:01:00:ff:00:00:00:00:00:00:c0:22:00:01:00:01:00:00:04:b0:00:04:0a:06:0d:85"
+        },
+        "dns": {
+          "dns.id": "0x544f",
+          "dns.flags": "0x2800",
+          "dns.flags_tree": {
+            "dns.flags.response": "0",
+            "dns.flags.opcode": "5",
+            "dns.flags.truncated": "0",
+            "dns.flags.recdesired": "0",
+            "dns.flags.z": "0",
+            "dns.flags.checkdisable": "0"
+          },
+          "dns.count.zones": "1",
+          "dns.count.prerequisites": "1",
+          "dns.count.updates": "3",
+          "dns.count.add_rr": "0",
+          "Zone": {
+            "massfriction.com: type SOA, class IN": {
+              "dns.qry.name": "massfriction.com",
+              "dns.qry.name.len": "16",
+              "dns.count.labels": "2",
+              "dns.qry.type": "6",
+              "dns.qry.class": "0x0001"
+            }
+          },
+          "Prerequisites": {
+            "DESKTOP-5AVE44C.massfriction.com: type CNAME, class NONE": {
+              "dns.resp.name": "DESKTOP-5AVE44C.massfriction.com",
+              "dns.resp.type": "5",
+              "dns.resp.class": "0x00fe",
+              "dns.resp.ttl": "0",
+              "dns.resp.len": "0"
+            }
+          },
+          "Updates": {
+            "DESKTOP-5AVE44C.massfriction.com: type AAAA, class ANY": {
+              "dns.resp.name": "DESKTOP-5AVE44C.massfriction.com",
+              "dns.resp.type": "28",
+              "dns.resp.class": "0x00ff",
+              "dns.resp.ttl": "0",
+              "dns.resp.len": "0"
+            },
+            "DESKTOP-5AVE44C.massfriction.com: type A, class ANY": {
+              "dns.resp.name": "DESKTOP-5AVE44C.massfriction.com",
+              "dns.resp.type": "1",
+              "dns.resp.class": "0x00ff",
+              "dns.resp.ttl": "0",
+              "dns.resp.len": "0"
+            },
+            "DESKTOP-5AVE44C.massfriction.com: type A, class IN, addr 10.6.13.133": {
+              "dns.resp.name": "DESKTOP-5AVE44C.massfriction.com",
+              "dns.resp.type": "1",
+              "dns.resp.class": "0x0001",
+              "dns.resp.ttl": "1200",
+              "dns.resp.len": "4",
+              "dns.a": "10.6.13.133"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2025-06-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Jun 13, 2025 18:33:55.717558000 FLE Daylight Time",
+          "frame.time_utc": "Jun 13, 2025 15:33:55.717558000 UTC",
+          "frame.time_epoch": "1749828835.717558000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.002017000",
+          "frame.time_delta_displayed": "0.002017000",
+          "frame.time_relative": "0.031007000",
+          "frame.number": "15",
+          "frame.len": "160",
+          "frame.cap_len": "160",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:dns"
+        },
+        "eth": {
+          "eth.dst": "24:77:03:ac:97:df",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Intel_ac:97:df",
+            "eth.dst.oui": "2389763",
+            "eth.dst.oui_resolved": "Intel Corporate",
+            "eth.dst.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.addr": "24:77:03:ac:97:df",
+            "eth.addr_resolved": "Intel_ac:97:df",
+            "eth.addr.oui": "2389763",
+            "eth.addr.oui_resolved": "Intel Corporate",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:26:b9:71:ad:36",
+          "eth.src_tree": {
+            "eth.src_resolved": "Dell_71:ad:36",
+            "eth.src.oui": "9913",
+            "eth.src.oui_resolved": "Dell Inc.",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "00:26:b9:71:ad:36",
+            "eth.addr_resolved": "Dell_71:ad:36",
+            "eth.addr.oui": "9913",
+            "eth.addr.oui_resolved": "Dell Inc.",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "2"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "146",
+          "ip.id": "0x454d",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "17",
+          "ip.checksum": "0xc67a",
+          "ip.checksum.status": "2",
+          "ip.src": "10.6.13.3",
+          "ip.addr": "10.6.13.133",
+          "ip.src_host": "10.6.13.3",
+          "ip.host": "10.6.13.133",
+          "ip.dst": "10.6.13.133",
+          "ip.dst_host": "10.6.13.133",
+          "ip.stream": "2"
+        },
+        "udp": {
+          "udp.srcport": "53",
+          "udp.dstport": "52241",
+          "udp.port": "52241",
+          "udp.length": "126",
+          "udp.checksum": "0x12a7",
+          "udp.checksum.status": "2",
+          "udp.stream": "3",
+          "udp.stream.pnum": "4",
+          "Timestamps": {
+            "udp.time_relative": "0.003382000",
+            "udp.time_delta": "0.002017000"
+          },
+          "udp.payload": "54:4f:a8:00:00:01:00:01:00:03:00:00:0c:6d:61:73:73:66:72:69:63:74:69:6f:6e:03:63:6f:6d:00:00:06:00:01:0f:44:45:53:4b:54:4f:50:2d:35:41:56:45:34:34:43:0c:6d:61:73:73:66:72:69:63:74:69:6f:6e:03:63:6f:6d:00:00:05:00:fe:00:00:00:00:00:00:c0:22:00:1c:00:ff:00:00:00:00:00:00:c0:22:00:01:00:ff:00:00:00:00:00:00:c0:22:00:01:00:01:00:00:04:b0:00:04:0a:06:0d:85"
+        },
+        "dns": {
+          "dns.id": "0x544f",
+          "dns.flags": "0xa800",
+          "dns.flags_tree": {
+            "dns.flags.response": "1",
+            "dns.flags.opcode": "5",
+            "dns.flags.authoritative": "0",
+            "dns.flags.truncated": "0",
+            "dns.flags.recdesired": "0",
+            "dns.flags.recavail": "0",
+            "dns.flags.z": "0",
+            "dns.flags.authenticated": "0",
+            "dns.flags.checkdisable": "0",
+            "dns.flags.rcode": "0"
+          },
+          "dns.count.zones": "1",
+          "dns.count.prerequisites": "1",
+          "dns.count.updates": "3",
+          "dns.count.add_rr": "0",
+          "Zone": {
+            "massfriction.com: type SOA, class IN": {
+              "dns.qry.name": "massfriction.com",
+              "dns.qry.name.len": "16",
+              "dns.count.labels": "2",
+              "dns.qry.type": "6",
+              "dns.qry.class": "0x0001"
+            }
+          },
+          "Prerequisites": {
+            "DESKTOP-5AVE44C.massfriction.com: type CNAME, class NONE": {
+              "dns.resp.name": "DESKTOP-5AVE44C.massfriction.com",
+              "dns.resp.type": "5",
+              "dns.resp.class": "0x00fe",
+              "dns.resp.ttl": "0",
+              "dns.resp.len": "0"
+            }
+          },
+          "Updates": {
+            "DESKTOP-5AVE44C.massfriction.com: type AAAA, class ANY": {
+              "dns.resp.name": "DESKTOP-5AVE44C.massfriction.com",
+              "dns.resp.type": "28",
+              "dns.resp.class": "0x00ff",
+              "dns.resp.ttl": "0",
+              "dns.resp.len": "0"
+            },
+            "DESKTOP-5AVE44C.massfriction.com: type A, class ANY": {
+              "dns.resp.name": "DESKTOP-5AVE44C.massfriction.com",
+              "dns.resp.type": "1",
+              "dns.resp.class": "0x00ff",
+              "dns.resp.ttl": "0",
+              "dns.resp.len": "0"
+            },
+            "DESKTOP-5AVE44C.massfriction.com: type A, class IN, addr 10.6.13.133": {
+              "dns.resp.name": "DESKTOP-5AVE44C.massfriction.com",
+              "dns.resp.type": "1",
+              "dns.resp.class": "0x0001",
+              "dns.resp.ttl": "1200",
+              "dns.resp.len": "4",
+              "dns.a": "10.6.13.133"
+            }
+          },
+          "dns.response_to": "14",
+          "dns.time": "0.002017000"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2025-06-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Jun 13, 2025 18:33:55.734271000 FLE Daylight Time",
+          "frame.time_utc": "Jun 13, 2025 15:33:55.734271000 UTC",
+          "frame.time_epoch": "1749828835.734271000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.016713000",
+          "frame.time_delta_displayed": "0.016713000",
+          "frame.time_relative": "0.047720000",
+          "frame.number": "16",
+          "frame.len": "128",
+          "frame.cap_len": "128",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:dns"
+        },
+        "eth": {
+          "eth.dst": "00:26:b9:71:ad:36",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Dell_71:ad:36",
+            "eth.dst.oui": "9913",
+            "eth.dst.oui_resolved": "Dell Inc.",
+            "eth.dst.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.addr": "00:26:b9:71:ad:36",
+            "eth.addr_resolved": "Dell_71:ad:36",
+            "eth.addr.oui": "9913",
+            "eth.addr.oui_resolved": "Dell Inc.",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "24:77:03:ac:97:df",
+          "eth.src_tree": {
+            "eth.src_resolved": "Intel_ac:97:df",
+            "eth.src.oui": "2389763",
+            "eth.src.oui_resolved": "Intel Corporate",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "24:77:03:ac:97:df",
+            "eth.addr_resolved": "Intel_ac:97:df",
+            "eth.addr.oui": "2389763",
+            "eth.addr.oui_resolved": "Intel Corporate",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "2"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "114",
+          "ip.id": "0x82a3",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "17",
+          "ip.checksum": "0x8944",
+          "ip.checksum.status": "2",
+          "ip.src": "10.6.13.133",
+          "ip.addr": "10.6.13.3",
+          "ip.src_host": "10.6.13.133",
+          "ip.host": "10.6.13.3",
+          "ip.dst": "10.6.13.3",
+          "ip.dst_host": "10.6.13.3",
+          "ip.stream": "2"
+        },
+        "udp": {
+          "udp.srcport": "53493",
+          "udp.dstport": "53",
+          "udp.port": "53",
+          "udp.length": "94",
+          "udp.checksum": "0x2c88",
+          "udp.checksum.status": "2",
+          "udp.stream": "4",
+          "udp.stream.pnum": "3",
+          "Timestamps": {
+            "udp.time_relative": "0.019912000",
+            "udp.time_delta": "0.019701000"
+          },
+          "udp.payload": "6f:ad:01:00:00:01:00:00:00:00:00:00:05:5f:6c:64:61:70:04:5f:74:63:70:17:44:65:66:61:75:6c:74:2d:46:69:72:73:74:2d:53:69:74:65:2d:4e:61:6d:65:06:5f:73:69:74:65:73:02:64:63:06:5f:6d:73:64:63:73:0c:6d:61:73:73:66:72:69:63:74:69:6f:6e:03:63:6f:6d:00:00:21:00:01"
+        },
+        "dns": {
+          "dns.id": "0x6fad",
+          "dns.flags": "0x0100",
+          "dns.flags_tree": {
+            "dns.flags.response": "0",
+            "dns.flags.opcode": "0",
+            "dns.flags.truncated": "0",
+            "dns.flags.recdesired": "1",
+            "dns.flags.z": "0",
+            "dns.flags.checkdisable": "0"
+          },
+          "dns.count.queries": "1",
+          "dns.count.answers": "0",
+          "dns.count.auth_rr": "0",
+          "dns.count.add_rr": "0",
+          "Queries": {
+            "_ldap._tcp.Default-First-Site-Name._sites.dc._msdcs.massfriction.com: type SRV, class IN": {
+              "dns.qry.name": "_ldap._tcp.Default-First-Site-Name._sites.dc._msdcs.massfriction.com",
+              "dns.qry.name.len": "68",
+              "dns.count.labels": "8",
+              "dns.qry.type": "33",
+              "dns.qry.class": "0x0001"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2025-06-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Jun 13, 2025 18:33:55.734567000 FLE Daylight Time",
+          "frame.time_utc": "Jun 13, 2025 15:33:55.734567000 UTC",
+          "frame.time_epoch": "1749828835.734567000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.000296000",
+          "frame.time_delta_displayed": "0.000296000",
+          "frame.time_relative": "0.048016000",
+          "frame.number": "17",
+          "frame.len": "196",
+          "frame.cap_len": "196",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:dns"
+        },
+        "eth": {
+          "eth.dst": "24:77:03:ac:97:df",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Intel_ac:97:df",
+            "eth.dst.oui": "2389763",
+            "eth.dst.oui_resolved": "Intel Corporate",
+            "eth.dst.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.addr": "24:77:03:ac:97:df",
+            "eth.addr_resolved": "Intel_ac:97:df",
+            "eth.addr.oui": "2389763",
+            "eth.addr.oui_resolved": "Intel Corporate",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:26:b9:71:ad:36",
+          "eth.src_tree": {
+            "eth.src_resolved": "Dell_71:ad:36",
+            "eth.src.oui": "9913",
+            "eth.src.oui_resolved": "Dell Inc.",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "00:26:b9:71:ad:36",
+            "eth.addr_resolved": "Dell_71:ad:36",
+            "eth.addr.oui": "9913",
+            "eth.addr.oui_resolved": "Dell Inc.",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "2"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "182",
+          "ip.id": "0x454e",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "17",
+          "ip.checksum": "0xc655",
+          "ip.checksum.status": "2",
+          "ip.src": "10.6.13.3",
+          "ip.addr": "10.6.13.133",
+          "ip.src_host": "10.6.13.3",
+          "ip.host": "10.6.13.133",
+          "ip.dst": "10.6.13.133",
+          "ip.dst_host": "10.6.13.133",
+          "ip.stream": "2"
+        },
+        "udp": {
+          "udp.srcport": "53",
+          "udp.dstport": "53493",
+          "udp.port": "53493",
+          "udp.length": "162",
+          "udp.checksum": "0x1005",
+          "udp.checksum.status": "2",
+          "udp.stream": "4",
+          "udp.stream.pnum": "4",
+          "Timestamps": {
+            "udp.time_relative": "0.020208000",
+            "udp.time_delta": "0.000296000"
+          },
+          "udp.payload": "6f:ad:85:80:00:01:00:01:00:00:00:01:05:5f:6c:64:61:70:04:5f:74:63:70:17:44:65:66:61:75:6c:74:2d:46:69:72:73:74:2d:53:69:74:65:2d:4e:61:6d:65:06:5f:73:69:74:65:73:02:64:63:06:5f:6d:73:64:63:73:0c:6d:61:73:73:66:72:69:63:74:69:6f:6e:03:63:6f:6d:00:00:21:00:01:c0:0c:00:21:00:01:00:00:02:58:00:28:00:00:00:64:01:85:0f:77:69:6e:2d:64:71:6c:34:77:66:77:6a:78:71:34:0c:6d:61:73:73:66:72:69:63:74:69:6f:6e:03:63:6f:6d:00:c0:68:00:01:00:01:00:00:0e:10:00:04:0a:06:0d:03"
+        },
+        "dns": {
+          "dns.id": "0x6fad",
+          "dns.flags": "0x8580",
+          "dns.flags_tree": {
+            "dns.flags.response": "1",
+            "dns.flags.opcode": "0",
+            "dns.flags.authoritative": "1",
+            "dns.flags.truncated": "0",
+            "dns.flags.recdesired": "1",
+            "dns.flags.recavail": "1",
+            "dns.flags.z": "0",
+            "dns.flags.authenticated": "0",
+            "dns.flags.checkdisable": "0",
+            "dns.flags.rcode": "0"
+          },
+          "dns.count.queries": "1",
+          "dns.count.answers": "1",
+          "dns.count.auth_rr": "0",
+          "dns.count.add_rr": "1",
+          "Queries": {
+            "_ldap._tcp.Default-First-Site-Name._sites.dc._msdcs.massfriction.com: type SRV, class IN": {
+              "dns.qry.name": "_ldap._tcp.Default-First-Site-Name._sites.dc._msdcs.massfriction.com",
+              "dns.qry.name.len": "68",
+              "dns.count.labels": "8",
+              "dns.qry.type": "33",
+              "dns.qry.class": "0x0001"
+            }
+          },
+          "Answers": {
+            "_ldap._tcp.Default-First-Site-Name._sites.dc._msdcs.massfriction.com: type SRV, class IN, priority 0, weight 100, port 389, target win-dql4wfwjxq4.massfriction.com": {
+              "dns.srv.service": "_ldap",
+              "dns.srv.proto": "_tcp",
+              "dns.srv.name": "Default-First-Site-Name._sites.dc._msdcs.massfriction.com",
+              "dns.resp.type": "33",
+              "dns.resp.class": "0x0001",
+              "dns.resp.ttl": "600",
+              "dns.resp.len": "40",
+              "dns.srv.priority": "0",
+              "dns.srv.weight": "100",
+              "dns.srv.port": "389",
+              "dns.srv.target": "win-dql4wfwjxq4.massfriction.com"
+            }
+          },
+          "Additional records": {
+            "win-dql4wfwjxq4.massfriction.com: type A, class IN, addr 10.6.13.3": {
+              "dns.resp.name": "win-dql4wfwjxq4.massfriction.com",
+              "dns.resp.type": "1",
+              "dns.resp.class": "0x0001",
+              "dns.resp.ttl": "3600",
+              "dns.resp.len": "4",
+              "dns.a": "10.6.13.3"
+            }
+          },
+          "dns.response_to": "16",
+          "dns.time": "0.000296000"
+        }
+      }
+    }
+  }
+]
