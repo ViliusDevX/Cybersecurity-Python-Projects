@@ -27,16 +27,16 @@ DNS	.json	JSON logs exported from tools like tshark or Wireshark
 
 ## 📁 Project Structure
 
-Simple_SIEM(SSIEM)/
-├── SSIEM.py                   # Main GUI application
-├── rules/
-│   ├── suricata/
-│   │   └── rules.yaml         # Suricata log rules
-│   └── dns/
-│       └── rules.yaml         # DNS log rules
-├── logs/                      # Place your log files here (Suricata .txt or DNS .json)
-├── output/                    # Alert results exported here (CSV + JSON)
-└── README.md                  # This file
+    Simple_SIEM(SSIEM)/
+    ├── SSIEM.py                   # Main GUI application
+    ├── rules/
+    │   ├── suricata/
+    │   │   └── rules.yaml         # Suricata log rules
+    │   └── dns/
+    │       └── rules.yaml         # DNS log rules
+    ├── logs/                      # Place your log files here (Suricata .txt or DNS .json)
+    ├── output/                    # Alert results exported here (CSV + JSON)
+    └── README.md                  # This file
 
 ## 🛠️ How to Use
 
