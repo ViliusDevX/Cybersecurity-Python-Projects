@@ -1,0 +1,19 @@
+- name: Suspicious Domain Lookup
+  match_key: dns.qry.name
+  match_value: "modandcrackedapk.com"
+  severity: high
+
+- name: NXDOMAIN Response
+  match_key: dns.flags.rcode
+  match_value: "3"
+  severity: medium
+
+- name: Excessive TXT Query
+  match_key: dns.qry.type
+  match_value: "16"
+  severity: low
+
+- name: Unusual TLD (.xyz domain)
+  match_key: dns.qry.name
+  match_value: "regex:.*\\.xyz$"
+  severity: low
