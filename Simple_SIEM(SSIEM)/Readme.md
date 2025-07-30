@@ -7,7 +7,7 @@ It supports both Suricata text logs and DNS JSON logs with a modern GUI built us
 
     ✅ Modern GUI with theme support (built using Tkinter + ttkbootstrap)
 
-    🧩 Suricata .txt and DNS .json log parsing
+    🧩 Suricata and DNS log parsing (.txt and .json sample logs)
 
     🧠 Flexible, custom rule matching via simple rules.yaml
 
