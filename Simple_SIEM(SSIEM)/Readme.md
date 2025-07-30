@@ -48,8 +48,6 @@ It supports both Suricata text logs and DNS JSON logs with a modern GUI built us
 
     📊 Threat scoring and severity-based charts
 
-    📈 Interactive timeline of detected events
-
     🧱 More built-in rule templates (for syslog, auth, Apache, etc.)
 
     💬 Regex support and metadata-based matching
@@ -58,4 +56,6 @@ It supports both Suricata text logs and DNS JSON logs with a modern GUI built us
 
 ## ⚠️ Disclaimer
 
-    This tool is intended strictly for educational and research purposes. Do not use SSIEM to analyze logs from unauthorized systems. Always follow data protection and privacy laws applicable in your jurisdiction.
+This tool is intended strictly for educational and research purposes. 
+Do not use SSIEM to analyze logs from unauthorized systems. 
+Always follow data protection and privacy laws applicable in your jurisdiction.
