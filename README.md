@@ -38,7 +38,7 @@ Each project is organized into its own folder and includes:
 | `port-scanner`               | Multi-threaded GUI-based port scanner with banner grabbing                                                |
 | `jwt-parser`                 | GUI tool to decode JWT tokens, display header and payload, check expiration, and verify HS256 signatures  |
 | `browser-cookie-scanner`     | CLI tool to audit Set-Cookie headers, detect missing security flags, session cookies, and cookie lifespan |
-| `ssiem`                      | GUI-based SIEM log analyzer for Suricata logs using YAML rules and outputs alerts to CSV/JSON             |
+| `ssiem`                      | GUI-based SIEM log analyzer for Suricata and DNS logs using YAML rules and outputs alerts to CSV/JSON     |
 | *More coming soon...*        | Plans include Cloud IAM analysis, Bucket Misconfig Scanner, and automated OSINT tools                     |
 
 ---
