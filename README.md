@@ -1,6 +1,6 @@
 # 🛡️ Cybersecurity-Python-Projects
 
-A collection of intermediate Python projects focused on cybersecurity — built to refresh my coding skills, explore security concepts, and showcase my portfolio as an aspiring cybersecurity professional.
+A collection of intermediate Python projects focused on cybersecurity built to refresh my coding skills, explore security concepts, and showcase my portfolio as an aspiring cybersecurity professional.
 
 ---
 
@@ -19,15 +19,14 @@ Each project is organized into its own folder and includes:
 
 ✅ Clean Python script  
 📘 README with usage instructions  
-🧠 Explanations of the cybersecurity concepts behind it  
-🖥️ (Optional) GUI or advanced features  
+🧠 Explanations of the cybersecurity concepts behind it
 
 ---
 
 ## 🧰 Current Projects
 
 | Project                      | Description                                                                                               |
-| ---------------------------  | ---------------------------------------------------------------------------------------------------------  |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------  |
 | `password-strength-checker`  | CLI + GUI tool to analyze password complexity, entropy, and common password usage                         |
 | `hash-cracker`               | GUI-based tool that performs offline dictionary attacks on hashes using `rockyou.txt` or custom wordlists |
 | `caesar-xor-encoder-decoder` | GUI-based Caesar and XOR encoder/decoder with tabbed interface and flexible key/shift input               |
@@ -39,40 +38,46 @@ Each project is organized into its own folder and includes:
 | `jwt-parser`                 | GUI tool to decode JWT tokens, display header and payload, check expiration, and verify HS256 signatures  |
 | `browser-cookie-scanner`     | CLI tool to audit Set-Cookie headers, detect missing security flags, session cookies, and cookie lifespan |
 | `ssiem`                      | GUI-based SIEM log analyzer for Suricata and DNS logs using YAML rules and outputs alerts to CSV/JSON     |
+| `aes-encoder`                | GUI-based AES encryption/decryption tool using CBC mode with modern UI and secure key/IV handling         |
 | *More coming soon...*        | Plans include Cloud IAM analysis, Bucket Misconfig Scanner, and automated OSINT tools                     |
 
 ---
 
 ## 🧭 Upcoming Projects
 
-🛡️ Public Bucket Misconfig Scanner
+📁 File Integrity Monitor
 
-📋 Automated OSINT Report Generator
+📦 ZIP/RAR Archive Scanner
 
-📦 Cloud IAM Policy Linter
+📊 SIEM Log Visualizer
 
-🌐 Subdomain Takeover Detector
+🔍 Regex Log Search Utility
 
 ---
 
 ## 📚 Skills Practiced
 
-🐍 Python scripting — logic structuring, reusable functions, modular codebases
+🐍 Python scripting — writing modular, reusable, and well-structured Python code for automation and analysis
 
-📁 Data parsing & file handling — working with .txt, .json, and encoded formats (Base64, JWT)
+📁 Data parsing & file handling — working with .txt, .json, .yaml, .csv, and log formats (Suricata, DNS, etc.)
 
-🔐 Hashing, encoding, and cryptography basics — hash cracking, Caesar/XOR ciphers, JWT signature verification
+🔐 Cryptography & encoding — AES (CBC mode), Caesar/XOR ciphers, Base64, JWT parsing, encryption padding.
 
-🌐 Networking and security scanning — port scanning, IP intelligence, HTTP header analysis, email spoofing checks
+🕵️‍♂️ Log analysis & rule matching — building a rule-based SIEM, scanning logs for indicators using YAML patterns
 
-🧠 Security fundamentals — password strength evaluation, secure protocol usage, DMARC/SPF, token validation
+🌐 Networking and security scanning — port scanning, IP geolocation, HTTP header auditing, email spoofing analysis
 
-☁️ Cloud security awareness — JWT structure, token expiration, API-based data fetching
+🛡️ Security fundamentals — password strength, secure protocols (TLS/SMB), SPF/DKIM/DMARC, cookie flags, token validation
 
-🖥️ Interface design — both CLI tools and GUI applications using Tkinter and PyQt5
+📊 Alert reporting & exporting — generating structured outputs (.csv, .json) from matched security alerts
+
+🖥️ GUI application development — modern interfaces using Tkinter and ttkbootstrap for tools like encoders, scanners, and log analyzers.
+
+📦 File and system inspection — scanning files for integrity, embedded indicators, and unpacking nested content.
 
 ---
 
 ## 🚀 Let's Connect
 
-I'm an aspiring cybersecurity student, passionate about hands-on learning and tool development. If you have suggestions, questions, or collaboration ideas, feel free to reach out 🤙
+I'm an aspiring cybersecurity student, passionate about hands-on learning and tool development. 
+If you have suggestions, questions, or collaboration ideas, feel free to reach out 🤙
