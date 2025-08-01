@@ -26,9 +26,8 @@ A lightweight GUI-based tool for AES encryption and decryption using the secure 
   
 ## 📁 Project Structure
 
-    AES_CBC_Tool/
-    ├── aes_gui.py          # Main GUI script
-    ├── requirements.txt    # Dependencies
+    AES_Encoder/
+    ├── encoder.py          # Main GUI script
     └── README.md
 
 ## ⚠️ Disclaimer
