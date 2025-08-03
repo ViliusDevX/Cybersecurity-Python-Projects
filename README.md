@@ -49,9 +49,17 @@ Each project is organized into its own folder and includes:
 
 📦 ZIP/RAR Archive Scanner
 
-📊 SIEM Log Visualizer
-
 🔍 Regex Log Search Utility
+
+🔐 TLS Certificate Analyzer
+
+🖼️ Image Steganography Tool
+
+🌐 Subdomain Enumerator & Takeover Checker
+
+📑 Open Redirect Scanner
+
+🧪 YARA Rule Tester
 
 ---
 
