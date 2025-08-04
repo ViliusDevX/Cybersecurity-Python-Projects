@@ -19,14 +19,12 @@ Useful for checking certificate validity, issuer information, and expiration.
 
 ---
 
-## 🚀 Usage
+## 📁 File Structure
 
-📁 File Structure
-
-TLS_analyzer/
-│
-├── analyzer.py       # Main Python script
-└── README.md         # Project documentation
+    TLS_analyzer/
+    │
+    ├── analyzer.py       # Main Python script
+    └── README.md         # Project documentation
 
 
 🛡️ Disclaimer
