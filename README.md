@@ -39,7 +39,8 @@ Each project is organized into its own folder and includes:
 | `browser-cookie-scanner`     | CLI tool to audit Set-Cookie headers, detect missing security flags, session cookies, and cookie lifespan |
 | `ssiem`                      | GUI-based SIEM log analyzer for Suricata and DNS logs using YAML rules and outputs alerts to CSV/JSON     |
 | `aes-encoder`                | GUI-based AES encryption/decryption tool using CBC mode with modern UI and secure key/IV handling         |
-| *More coming soon...*        | Plans include Cloud IAM analysis, Bucket Misconfig Scanner, and automated OSINT tools                     |
+|`tls-analyzer`	               | CLI tool to retrieve and display TLS/SSL certificate information, including validity and expiration data  |
+| *More coming soon...*        | Plans include File integrity monitor, Redirect scanner, and automated OSINT tools                         |
 
 ---
 
@@ -50,8 +51,6 @@ Each project is organized into its own folder and includes:
 📦 ZIP/RAR Archive Scanner
 
 🔍 Regex Log Search Utility
-
-🔐 TLS Certificate Analyzer
 
 🖼️ Image Steganography Tool
 
