@@ -18,9 +18,6 @@ Designed for security testing, this scanner analyzes how web applications handle
 ## 🧪 How to Use
 
   Paste one or more URLs in the "Enter URL(s)" box
-  Example:
-
-  https://example.com/redirect?url=https://google.com
 
   Enter the redirect parameter name (e.g., url, redirect, next)
 
