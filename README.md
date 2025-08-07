@@ -56,8 +56,6 @@ Each project is organized into its own folder and includes:
 
 🌐 Subdomain Enumerator & Takeover Checker
 
-📑 Open Redirect Scanner
-
 🧪 YARA Rule Tester
 
 ---
