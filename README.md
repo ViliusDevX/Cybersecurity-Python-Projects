@@ -45,7 +45,6 @@ Each project is organized into its own folder and includes:
 | *More coming soon...*        | Plans include File integrity monitor, archive scanner, and automated OSINT tools                          |
 --------------------------------------------------------------------------------------------------------------------------------------------
 
----
 
 ## 🧭 Upcoming Projects
 
