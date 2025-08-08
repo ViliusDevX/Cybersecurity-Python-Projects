@@ -23,8 +23,6 @@ The scanner sends a multicast `M-SEARCH` query and listens for responses from sm
 
 ## 📚 How It Works
 
-This tool:
-
     Sends an SSDP multicast discovery packet:
 
     M-SEARCH * HTTP/1.1
