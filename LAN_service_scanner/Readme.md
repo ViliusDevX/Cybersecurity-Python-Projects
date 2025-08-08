@@ -1,4 +1,4 @@
-# 📡 SSDP/UPnP Network Scanner (Python + Tkinter)
+# 📡 SSDP/UPnP Network Scanner
 
 A simple Python GUI tool to **discover devices and services** on your local network using the **Simple Service Discovery Protocol (SSDP)**, part of **Universal Plug and Play (UPnP)**.  
 The scanner sends a multicast `M-SEARCH` query and listens for responses from smart TVs, printers, NAS devices, consoles, routers, and other UPnP-enabled hardware.
