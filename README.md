@@ -24,8 +24,9 @@ Each project is organized into its own folder and includes:
 ---
 ## 🧰 Current Projects
 
+--------------------------------------------------------------------------------------------------------------------------------------------
 | Project                      | Description                                                                                               |
-| --------------------------- | --------------------------------------------------------------------------------------------------------- |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------- |
 | `password-strength-checker`  | CLI + GUI tool to analyze password complexity, entropy, and common password usage                         |
 | `hash-cracker`               | GUI-based tool that performs offline dictionary attacks on hashes using `rockyou.txt` or custom wordlists |
 | `caesar-xor-encoder-decoder` | GUI-based Caesar and XOR encoder/decoder with tabbed interface and flexible key/shift input               |
@@ -39,8 +40,10 @@ Each project is organized into its own folder and includes:
 | `aes-encoder`                | GUI-based AES encryption/decryption tool using CBC mode with modern UI and secure key/IV handling         |
 | `tls-analyzer`               | CLI tool to retrieve and display TLS/SSL certificate information, including validity and expiration data  |
 | `redirect-scanner`           | GUI-based tool that tests URLs for open redirect vulnerabilities using common payloads and logic checks   |
+| `ssdp-upnp-scanner`          | GUI-based tool to discover UPnP/SSDP devices and services on the local network via multicast search       |
 | `ssiem`                      | GUI-based SIEM log analyzer for Suricata and DNS logs using YAML rules and outputs alerts to CSV/JSON     |
 | *More coming soon...*        | Plans include File integrity monitor, archive scanner, and automated OSINT tools                          |
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 ---
 
