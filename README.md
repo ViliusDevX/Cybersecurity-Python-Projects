@@ -42,6 +42,7 @@ Each project is organized into its own folder and includes:
 | `redirect-scanner`           | GUI-based tool that tests URLs for open redirect vulnerabilities using common payloads and logic checks   |
 | `lan-service-scanner`        | GUI-based tool to discover UPnP/SSDP devices and services on the local network via multicast search       |
 | `ssiem`                      | GUI-based SIEM log analyzer for Suricata and DNS logs using YAML rules and outputs alerts to CSV/JSON     |
+| `phishing_url_scanner`       | GUI-based url scanner for potentional phishing threats, analyzing domain age, SSL certificates and more.  |
 | *More coming soon...*        | Plans include File integrity monitor, archive scanner, and automated OSINT tools                          |
 --------------------------------------------------------------------------------------------------------------------------------------------
 
