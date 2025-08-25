@@ -4,35 +4,35 @@ A Python GUI application that analyzes URLs for potential phishing threats by ex
 
 ## 🔍 Features
 
-    - **🌐 Domain Age Analysis** — Checks domain registration date and flags newly registered domains
-    - **🔒 SSL Certificate Validation** — Verifies certificate validity and expiration
-    - **🔗 URL Structure Analysis** — Detects suspicious patterns and anomalies
-    - **📋 Blacklist Checking** — Simulated blacklist checks (extensible with real APIs)
-    - **📊 Content Analysis** — Simulated content inspection for phishing indicators
-    - **⚖️ Risk Scoring** — Calculates comprehensive risk percentage (0-100%)
-    - **💾 Export Functionality** — Saves detailed scan results to text files
-    - **🎨 Modern GUI** — Clean, dark-themed interface built with ttkbootstrap
+- **🌐 Domain Age Analysis** — Checks domain registration date and flags newly registered domains
+- **🔒 SSL Certificate Validation** — Verifies certificate validity and expiration
+- **🔗 URL Structure Analysis** — Detects suspicious patterns and anomalies
+- **📋 Blacklist Checking** — Simulated blacklist checks (extensible with real APIs)
+- **📊 Content Analysis** — Simulated content inspection for phishing indicators
+- **⚖️ Risk Scoring** — Calculates comprehensive risk percentage (0-100%)
+- **💾 Export Functionality** — Saves detailed scan results to text files
+- **🎨 Modern GUI** — Clean, dark-themed interface built with ttkbootstrap
 
 ## ⚙️ How It Works
 
-    1. **Enter a domain or URL** (e.g., `example.com` or `https://example.com/login`)
-    2. The application performs multiple security checks:
-       - **Domain Age**: Analyzes registration date through WHOIS lookup
-       - **SSL Certificate**: Validates certificate authenticity and expiration
-       - **URL Structure**: Scans for suspicious patterns (IP addresses, hyphens, free TLDs)
-       - **Blacklist Status**: Simulates blacklist checks (extensible to real APIs)
-       - **Content Indicators**: Simulates content analysis for phishing signs
-    3. **Calculates a risk score** based on weighted factors from all checks
-    4. **Displays detailed results** with recommendations for further investigation
+1. **Enter a domain or URL** (e.g., `example.com` or `https://example.com/login`)
+2. The application performs multiple security checks:
+   - **Domain Age**: Analyzes registration date through WHOIS lookup
+   - **SSL Certificate**: Validates certificate authenticity and expiration
+   - **URL Structure**: Scans for suspicious patterns (IP addresses, hyphens, free TLDs)
+   - **Blacklist Status**: Simulates blacklist checks (extensible to real APIs)
+   - **Content Indicators**: Simulates content analysis for phishing signs
+3. **Calculates a risk score** based on weighted factors from all checks
+4. **Displays detailed results** with recommendations for further investigation
 
 ## 🧠 Risk Assessment System
 
-    | Risk Percentage | Verdict | Meaning |
-    |-----------------|---------|---------|
-    | 0-30% | ✅ Likely Safe | Minimal risk indicators detected |
-    | 31-60% | ⚠️ Suspicious | Some concerning elements present |
-    | 61-85% | 🚨 High Risk | Multiple phishing indicators detected |
-    | 86-100% | 🔴 Very High Risk | Strong evidence of phishing attempt |
+| Risk Percentage | Verdict | Meaning |
+|-----------------|---------|---------|
+| 0-30% | ✅ Likely Safe | Minimal risk indicators detected |
+| 31-60% | ⚠️ Suspicious | Some concerning elements present |
+| 61-85% | 🚨 High Risk | Multiple phishing indicators detected |
+| 86-100% | 🔴 Very High Risk | Strong evidence of phishing attempt |
 
 ## 🚦 Example URL Classifications
 
