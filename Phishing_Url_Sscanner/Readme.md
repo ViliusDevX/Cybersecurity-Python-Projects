@@ -29,10 +29,10 @@ A Python GUI application that analyzes URLs for potential phishing threats by ex
 
 | Risk Percentage | Verdict | Meaning |
 |-----------------|---------|---------|
-| 0-30% | ✅ Likely Safe | Minimal risk indicators detected |
-| 31-60% | ⚠️ Suspicious | Some concerning elements present |
-| 61-85% | 🚨 High Risk | Multiple phishing indicators detected |
-| 86-100% | 🔴 Very High Risk | Strong evidence of phishing attempt |
+| 0-20% | ✅ Likely Safe | Minimal risk indicators detected |
+| 21-50% | ⚠️ Suspicious | Some concerning elements present |
+| 51-75% | 🚨 High Risk | Multiple phishing indicators detected |
+| 76-100% | 🔴 Very High Risk | Strong evidence of phishing attempt |
 
 ## 🚦 Example URL Classifications
 
