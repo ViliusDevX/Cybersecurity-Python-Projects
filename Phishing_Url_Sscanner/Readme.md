@@ -1,6 +1,6 @@
 # 🎣 Phishing URL Detector/Scanner
 
-A lightweight GUI application to evaluate a domain's email spoofing protection by inspecting its SPF, DMARC, and DKIM records.
+A Python GUI application that analyzes URLs for potential phishing threats by examining multiple security indicators including domain age, SSL certificates, URL structure, and more.
 
 ## 🔍 Features
 
